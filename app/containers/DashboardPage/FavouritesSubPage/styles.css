@@ -1,0 +1,16 @@
+.gallery-single {
+  position: relative;
+  margin-top: 30px;
+}
+
+.gallery-single .favourite-wrapper {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  z-index: 99;
+  display: none;
+}
+
+.gallery-single:hover .favourite-wrapper {
+  display: block;
+}

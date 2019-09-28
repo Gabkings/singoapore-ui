@@ -1,0 +1,95 @@
+.no-listing {
+  text-align: center;
+  width: 100%;
+}
+
+.listing-group {
+  text-align: left;
+  margin-bottom: 26px;
+}
+
+.listing-group .content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.listing-group .listing-logo {
+  max-width: 100px;
+}
+
+.listing-group .listing-text {
+  max-width: 70%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.listing-card-wrapper {
+  position: relative;
+}
+
+.listing-card-wrapper .listing-buttons {
+  display: none;
+}
+
+.listing-card-wrapper:hover .listing-buttons {
+
+  max-width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  right: 50px;
+  position: absolute;
+  top: 10px;
+  z-index: 99;
+}
+
+.listing-card-wrapper {
+  margin-bottom: 30px;
+}
+
+#dashboard-section .edit-button, #dashboard-section .view-button, #dashboard-section .approve-button {
+  margin: 5px;
+  width: 100%;
+}
+
+.listing-group .listing-description {
+  max-height: 40px;
+  overflow: hidden;
+  color: #888;
+  margin-left: 0px!important;
+}
+
+.listing-group .listing-image {
+  margin-bottom: 14px !important;
+  cursor: pointer;
+}
+
+.gallery-card-wrapper {
+
+}
+
+.gallery-card-wrapper {
+  position: relative;
+}
+
+.gallery-card-wrapper .gallery-buttons {
+  display: none;
+}
+
+.gallery-card-wrapper:hover .gallery-buttons {
+
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  left: 25%;
+  position: absolute;
+  top: 25%;
+  z-index: 99;
+}
+

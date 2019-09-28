@@ -1,0 +1,40 @@
+.vouchers-search.card {
+  border: 0;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  width: 93.75%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+}
+
+.vouchers-search .vouchers-search-grid > .row > .column {
+  padding: 8px;
+}
+
+.vouchers-search i {
+  color: rgb(255, 176, 0);
+}
+
+.vouchers-search.card,
+.vouchers-search .vouchers-search-input > *,
+.vouchers-search .voucher-category-filter {
+  border-radius: 2px !important;
+}
+
+.vouchers-search .vouchers-search-input .label {
+  border-left: 0;
+  position: relative;
+}
+
+.vouchers-search .vouchers-search-input .label:after {
+  content: "";
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 30%;
+  left: 0;
+  height: 40%;
+  width: 1px;
+}
+
+

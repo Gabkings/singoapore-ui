@@ -1,0 +1,119 @@
+#content > .row {
+  background: url("https://s3-ap-southeast-1.amazonaws.com/sghomeneeds-gallery/images/DirectoryPage/orangeshades.png") no-repeat;
+  background-size: contain;
+  padding: 48px 24px;
+}
+
+#content > .row h3 {
+  font-size: 24px;
+  color: rgb(32, 32, 32);
+  font-weight: bold;
+  margin: 24px !important;
+}
+
+#register-section #register-wrapper {
+  margin-right: 0;
+  margin-left: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+#register-wrapper {
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.07);
+}
+
+#register-wrapper h4 {
+  font-weight: lighter;
+  font-size: 18px;
+  margin-top: -16px;
+}
+
+#register-wrapper .button {
+  border-radius: 2px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.06);
+}
+
+#register-section #register-form {
+  padding: 12px 32px;
+}
+
+#register-form .input {
+  border: 0;
+  height: 48px;
+  border-radius: 0;
+
+  background-color: rgb(253, 253, 253);
+}
+
+#register-form .ui[class*="left icon"].input>input {
+  padding-left: 4em !important;
+  border-radius: 2px;
+  border-color: #eee;
+}
+
+#register-form label {
+  font-family: 'AtlasGrotesk', sans-serif;
+  font-size: 12px;
+}
+
+/* overriding semantic checkbox styles */
+#register-form .ui.checkbox .box:before, .ui.checkbox label:before {
+  border-radius: 0 !important;
+}
+
+#register-form .ui.checkbox input:checked~.box:before, .ui.checkbox input:checked~label:before {
+  background: orange !important;
+  border-color: orange !important;
+}
+
+#register-form .ui.checkbox input:checked~.box:after, .ui.checkbox input:checked~label:after {
+  color: white !important;
+}
+
+#register-form .ui.checkbox .box:after, .ui.checkbox label:after {
+  position: absolute !important;
+  font-size: 10px !important;
+}
+/* end override */
+
+#form-footer {
+  background-color: rgba(235, 235, 235, 0.2);
+  margin: 0;
+  width: 100%;
+  padding-bottom: 0;
+  color: grey;
+}
+
+#form-footer div.horizontal.divider {
+  color: grey;
+  font-weight: 200;
+  width: 90%;
+  margin: 18px auto;
+  font-size: 14px;
+}
+
+#form-footer #sign-up-tos {
+  font-size: 12px;
+  font-weight: 200;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+a {
+  color: rgb(255, 177, 0);
+}
+
+
+#register-section a.item {
+  width: 50%;
+  font-size: large;
+  height: 65px;
+}
+
+#user-type-menu {
+  margin-bottom: 0px;
+}
+
+#user-type-menu .active {
+  background-color: white;
+}

@@ -1,0 +1,33 @@
+.custom-pagination {
+  border: 1px solid rgb(235, 235, 235) !important;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.03) !important;
+  border-radius: 2px !important;
+}
+
+.custom-pagination .active {
+  background-color: rgba(247, 177, 0, 1) !important;
+  color: white !important;
+}
+
+.custom-pagination .active:hover {
+  color: white !important;
+  background: #e8a205 !important;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.custom-pagination .item {
+  line-height: 1;
+  border-radius: 0 !important;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-pagination .item:hover:not(.active) {
+  color: orange !important;
+  transition: all 0.3s ease-in-out !important;
+}
+

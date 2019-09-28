@@ -1,0 +1,127 @@
+#content > .row {
+  background: url("https://s3-ap-southeast-1.amazonaws.com/sghomeneeds-gallery/images/LoginPage/bg.png") no-repeat;
+  background-size: contain;
+  padding: 48px 24px;
+}
+
+#content > .row h3 {
+  font-size: 24px;
+  color: rgb(32, 32, 32);
+  font-weight: bold;
+  margin: 24px !important;
+}
+
+#login-section #login-wrapper {
+  margin-right: 0;
+  margin-left: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+#login-section #login-wrapper {
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.07);
+}
+
+#login-section #login-wrapper .button {
+  border-radius: 2px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.06);
+  width: 120px;
+}
+
+#login-section #login-form {
+  padding: 12px 32px;
+}
+
+#login-section #login-form .input {
+  border: 0;
+  height: 48px;
+  border-radius: 0;
+
+  background-color: rgb(253, 253, 253);
+}
+
+#login-section #login-form .ui[class*="left icon"].input>input {
+  padding-left: 4em !important;
+  border-radius: 2px;
+  border-color: #eee;
+}
+
+#login-section #login-form label {
+  font-family: 'AtlasGrotesk', sans-serif;
+  font-size: 12px;
+}
+
+/* overriding semantic checkbox styles */
+#login-section #login-form .ui.checkbox .box:before,
+#login-section #login-form .ui.checkbox label:before {
+  border-radius: 0 !important;
+}
+
+#login-section #login-form .ui.checkbox input:checked~.box:before,
+#login-section #login-form .ui.checkbox input:checked~label:before {
+  background: orange !important;
+  border-color: orange !important;
+}
+
+#login-section #login-form .ui.checkbox input:checked~.box:after,
+#login-section #login-form .ui.checkbox input:checked~label:after {
+  color: white !important;
+}
+
+#login-section #login-form .ui.checkbox .box:after,
+#login-section #login-form .ui.checkbox label:after {
+  position: absolute !important;
+  font-size: 10px !important;
+}
+/* end override */
+
+#login-section #register {
+  background-color: rgba(235, 235, 235, 0.2);
+  margin: 0;
+  width: 100%;
+  padding-bottom: 0;
+  color: grey;
+}
+
+#login-section #register div.horizontal.divider {
+  color: grey;
+  font-weight: 200;
+  width: 90%;
+  margin: 18px auto;
+  font-size: 14px;
+}
+
+#login-section #register #sign-up-tos {
+  font-size: 12px;
+  font-weight: 200;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#login-section a {
+  color: rgb(255, 177, 0);
+}
+
+#login-section #login-fail {
+  left: 40%;
+  position: fixed;
+  top: 50%;
+  z-index: 1000;
+}
+
+#login-section a.item {
+  width: 50%;
+  font-size: large;
+  height: 65px;
+  color: black;
+}
+
+#user-type-menu {
+  margin-bottom: 0px;
+}
+
+.ui.secondary.pointing.menu {
+  margin-left: 0;
+  margin-right: 0;
+  border-bottom: none;
+}

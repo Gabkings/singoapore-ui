@@ -1,0 +1,270 @@
+.service-category-wrapper .pagination .item {
+  width: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.btn-wizard-nav-submit {
+  display: none !important;
+}
+
+.hide-formio-email .formio-component-Email {
+  display: none !important;
+}
+
+#form-landing {
+  padding-bottom: 10px;
+  max-width: 1024px;
+}
+
+
+#form-landing .subsection {
+  padding-bottom: 10px;
+  width: 70%;
+}
+
+#form-landing h1 {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+#form-landing h1>strong {
+  color: rgba(247, 177, 0, 1);
+}
+
+#category-title h1>strong {
+  color: rgba(247, 177, 0, 1);
+}
+
+#form-landing h2 {
+  font-weight: lighter;
+  padding-bottom: 60px;
+}
+
+#form-landing .ui.button {
+  margin-bottom: 60px;
+  font-size: large;
+  width: 150px!important;
+  height: 45px;
+}
+
+
+#category-description-paper {
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.09);
+
+}
+#category-description-paper .section.title {
+  padding-top: 30px;
+  padding-left: 45px;
+  padding-bottom: 30px;
+  background-color: rgba(235, 235, 235, 0.459);
+}
+
+#category-description-paper .section.body {
+  text-align: left;
+  padding: 25px 45px;
+  color: rgb(144, 144, 144);
+}
+
+#category-description-paper h1 {
+  text-align: left;
+  font-size: 28px;
+}
+
+
+#start-wrapper .start-button:hover{
+  background: #e8a205 !important;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.service-category-wrapper .banner-title h1{
+  margin: 0px 22px;
+}
+
+/* not on small screen */
+@media only screen and (min-width : 769px) {
+
+
+   .service-category-wrapper .banner_position_services{
+         position: absolute;
+    }
+  .banner_child_services {
+     position: relative;
+     top: 28px;
+    z-index: 100;
+  }
+
+  .service-category-wrapper .banner-title{
+    display: none;
+  }
+
+  .category_body{
+    margin-top: 40px !important;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 767px){
+  .xMobileView {
+    padding: 0px!important;
+}}
+
+@media only screen and (min-width: 768px){
+  .xMobileView {
+    padding: 0px 30px 0px 20px !important;
+}}
+
+
+.services-parent {
+  top: 120px !important;
+}
+
+.services-parent h1 {
+  font-size: 21px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 411px){
+#form-landing h1 {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-size: 22px;
+}
+#form-landing h2 {
+font-size: 17px;
+padding-bottom:20px;
+}
+#form-landing .subsection {
+  width: 85%;
+}
+#form-landing .ui.button {
+  margin-bottom: 20px;
+  font-size: medium;
+  width: 120px!important;
+  height: 40px;
+}
+.formio-form .formio-component.form-group label~.form-group {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+.formio-form .form-check .form-check-label {
+  padding: 7px 2px 4px 2px;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.formio-form .formio-component.form-group .form-group .form-check .form-check-label span {
+  font-size: 14px;
+}
+.formio-form .form-check .form-check-label input:checked~span:before {
+  padding-bottom: 18px!important;
+  min-width: 18px!important;
+}
+.formio-form .btn {
+  font-size: 0px !important;
+}
+}
+
+@media only screen and (max-width: 411px) {
+
+.banner_position_services {
+  height: 200px!important;
+}
+
+div#category-description-paper p {
+  color: #3C4043!important;
+  font-size: 14.5px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  font-family: Roboto,HelveticaNeue,Arial,sans-serif!important;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+div#category-description-paper h2 {
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+div#category-description-paper ol > li {
+  color: #3C4043!important;
+  font-size: 14.5px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  letter-spacing: 0.4px;
+  padding-left: 0px;
+  line-height: 20px;
+  font-family: Roboto,HelveticaNeue,Arial,sans-serif!important;
+}
+
+div#category-description-paper ul > li {
+  color: #3C4043!important;
+  font-size: 14.5px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  letter-spacing: 0.4px;
+  padding-left: 0px;
+  line-height: 20px;
+  font-family: Roboto,HelveticaNeue,Arial,sans-serif!important;
+}
+div#category-description-paper ul {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding-inline-start: 30px;
+}
+div#category-description-paper h3 {
+  font-size: 17px;
+  line-height: 24px;
+  margin: 0px;
+  padding-top: 7px;
+}
+table {
+  color: #3C4043!important;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  font-family: Roboto,HelveticaNeue,Arial,sans-serif!important;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+div#category-description-paper h4 {
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0em;
+  color: rgb(90,90,90) !important;
+  font-family: Roboto,HelveticaNeue,Arial,sans-serif!important;
+  text-decoration: none;
+  line-height: 25px;
+  margin-top: 5px;
+}
+#category-description-paper .section.body {
+  padding: 20px 18px;
+}
+}
+
+a {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.category-link-wrapper {
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.06)!important;
+  border-radius: 5px!important;
+  background-color: #ffffff!important;
+  margin: 5px 10px 5px 0px;
+  padding: 10px 15px;
+  display: inline-block;
+  font-weight: 900;
+}
+.category-link-wrapper:hover {
+  cursor: pointer;
+}

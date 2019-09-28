@@ -1,0 +1,20 @@
+.page-wrapper > .section {
+  margin-top: 48px;
+}
+
+#homepage .page-wrapper > .section {
+  margin-top: 0px;
+}
+
+.ui.modal.transition.visible.active .ui.modal {
+  border-radius: 0;
+  }
+  .ui.modal.transition.visible.active .ui.input>input {
+border-radius: 0;
+padding: 1em 1em;
+}
+
+.ui.modal.transition.visible.active button.search.icon {
+  padding-left: 15px;
+  padding-right: 12px;
+}

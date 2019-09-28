@@ -1,0 +1,7 @@
+.slider-circle {
+  color: rgb(235, 235, 235)
+}
+
+.slider-circle.active {
+  color: rgb(255, 177, 0);
+}

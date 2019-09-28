@@ -1,0 +1,75 @@
+.conversation-profile {
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.conversation-profile .review-wrapper {
+  color: #777777;
+  margin-bottom: 24px;
+}
+
+.conversation-profile img.ui.image {
+  display: inline-block;
+}
+
+.conversation-profile .info-row {
+  padding: 16px;
+  width: 100%;
+  border-top: 1px solid #bbbbbb;
+  display: flex;
+}
+
+.conversation-profile .info-row:nth-last-child(2) {
+  border-bottom: 1px solid #bbbbbb;
+}
+
+.conversation-profile .info-row > div {
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.conversation-profile .info-row > div:first-child {
+  width: 40%;
+}
+
+.conversation-profile .info-row > div:nth-child(2) {
+  font-weight: bold;
+  width: 60%;
+}
+
+.hire-pro {
+  background: black;
+  color: orange;
+  padding: 12px 24px;
+  border-radius: 5px;
+  margin: 24px;
+  cursor: pointer;
+}
+
+button#appointment-button {
+  padding: 0px!important;
+}
+
+#chat-faq {
+  padding: 0px;
+}
+
+#chat-faq #faq {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+#chat-faq #faq .paper {
+  border: none;
+  box-shadow: none;
+}
+
+#chat-faq #faq h1 {
+  margin-left: 20px;
+  padding-top: 10px;
+  font-size: 18px;
+}

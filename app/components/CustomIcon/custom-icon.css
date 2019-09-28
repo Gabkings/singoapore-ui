@@ -1,0 +1,9 @@
+.verified-icon {
+  /*border: solid 3px rgba(255, 177, 0, 0.329);*/
+  /*border-radius: 10px;*/
+  display: inline;
+}
+
+.verified-icon i {
+  /*margin: 0px;*/
+}

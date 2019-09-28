@@ -1,0 +1,21 @@
+.subsection {
+  margin: auto;
+  width: 95%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#how-it-works .subsection {
+  padding-top: 80px;
+}
+
+.section {
+  width: 100%;
+}
+
+.paper {
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.06)!important;
+  border-radius: 5px!important;
+  background-color: #ffffff!important;
+}

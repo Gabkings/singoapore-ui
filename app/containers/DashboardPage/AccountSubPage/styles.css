@@ -1,0 +1,60 @@
+.account-settings {
+  text-align: left;
+}
+
+.account-settings-options {
+  text-align: left;
+}
+
+.account-settings-row h4 {
+  font-weight: normal;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.account-settings-row h4 span {
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.settings-edit button.ui {
+  background: transparent;
+  color: #bbb;
+}
+
+.settings-edit button.ui:hover,
+.settings-edit button.ui:active,
+.settings-edit button.ui:focus {
+  color: #777;
+  background: transparent;
+}
+
+.settings-edit i {
+  margin: 0 !important;
+}
+
+.account-settings-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.account-settings-row .settings-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ui.card.full-width-card.account-settings-options {
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.ui.card.full-width-card.undefined {
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+

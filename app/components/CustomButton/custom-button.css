@@ -1,0 +1,56 @@
+.ui.button.chat-now {
+  border: 1px solid rgb(255, 177, 0);
+  border-radius: 2px;
+  background-color: rgb(255, 177, 0);
+  color: #ffffff;
+  min-width: 120px;
+  font-weight: lighter;
+  padding: 8px 8px;
+}
+
+.ui.button.chat-now span {
+  margin-left: 6px;
+}
+
+.ui.button.chat-now:hover {
+  background: #e8a205 !important;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out !important;
+}
+
+/*NoFavourite NoHover*/
+button.favourite-button.ui.circular.basic.icon.button {
+  background-color: white!important;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 9px 0px !important;
+}
+
+button.favourite-button.ui.circular.basic.icon.button i.heart.outline.icon {
+  color: red;
+  position: relative;
+  left: -1px;
+  top: 1px;
+}
+/*NoFavourite Hover
+button.favourite-button.ui.circular.basic.icon.button:hover {
+  background-color: red !important;
+}
+button.favourite-button.ui.circular.basic.icon.button:hover i.heart.outline.icon {
+  color: white;
+}*/
+
+/*Favourite NoHover*/
+button.favourite-button.ui.circular.basic.icon.button.favourite {
+  background-color: red !important;
+}
+button.favourite-button.ui.circular.basic.icon.button.favourite i.heart.outline.icon.favourite {
+  color: white;
+}
+
+/*Favourite Hover
+button.favourite-button.ui.circular.basic.icon.button.favourite:hover {
+  background-color: white !important;
+}
+button.favourite-button.ui.circular.basic.icon.button.favourite:hover i.heart.outline.icon.favourite {
+  color: red;
+}*/
+

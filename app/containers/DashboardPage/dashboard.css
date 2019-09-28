@@ -1,0 +1,37 @@
+.dashboard-sub-page-title {
+  text-align: left;
+}
+
+.dashboard > .subsection > div:not(:first-child) {
+  margin-top: 24px;
+}
+
+.ui.column.grid>[class*="ten wide"].column, .ui.grid>.column.row>[class*="ten wide"].column, .ui.grid>.row>[class*="ten wide"].column, .ui.grid>[class*="ten wide"].column {
+  width: 70%!important;
+}
+
+.ui.column.grid>[class*="six wide"].column, .ui.grid>.column.row>[class*="six wide"].column, .ui.grid>.row>[class*="six wide"].column, .ui.grid>[class*="six wide"].column {
+  width: 30%!important;
+}
+
+.ui.form .field>label {
+  font-family: Larsseit,sans-serif;
+}
+
+div.sixteen.wide.computer.eight.wide.mobile.eight.wide.tablet.column.myChat div {
+  padding-right: 20px;
+}
+
+.rating-wrapper {
+  padding-right: 15px;
+  float: right!important;
+  padding-top: 15px;
+}
+
+div.nine.wide.computer.twelve.wide.mobile.twelve.wide.tablet.column {
+  padding-top: 23px!important;
+}
+
+button.ui.button.filled.chat-now.undefined {
+  float: right;
+}

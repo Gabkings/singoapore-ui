@@ -1,0 +1,26 @@
+.custom.ui.button {
+  border-radius: 0px;
+  font-weight: lighter;
+}
+
+.custom.ui.button.filled {
+  background-color: rgba(247, 177, 0, 1);
+  color: #ffffff;
+}
+
+.custom.ui.button.outline {
+  background-color: #ffffff;
+  color: rgba(247, 177, 0, 1);
+  border: 1px solid rgba(247, 177, 0, 1);
+}
+#client-review button.button:hover{
+  background: #e8a205 !important;
+  transition: all 0.3s ease-in-out !important;
+  text-decoration: underline;
+}
+#register-button button.button:hover{
+  background: #e8a205 !important;
+  transition: all 0.3s ease-in-out !important;
+  text-decoration: underline;
+  color: white;
+}

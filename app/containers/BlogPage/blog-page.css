@@ -1,0 +1,83 @@
+.blog-page .category-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.blog-page .category-selector h3 {
+  margin: 0px 10px 0px 0px;
+}
+
+.blog-page .blog-excerpts .post-excerpt-card {
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+.blog-page .blog-excerpts .post-excerpt-card img {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+}
+
+.blog-page .blog-excerpts .post-excerpt-card .content h3 {
+  margin-top: 10px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.blog-page .blog-excerpts .post-excerpt-card .content p {
+  font-size: 14px;
+  height: 4.5em;
+  overflow: hidden;
+  color: #707070;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 400px) {
+  .custom-pagination {
+    width: 100%;
+float: none;
+display: block !important;
+  }
+  .custom-pagination > .item{
+
+float: left;
+display: block !important;
+  }
+}
+
+/*pagination responsiveness*/
+@media only screen and (max-width: 470px) { 
+  div.ui.pagination.custom-pagination.menu a.item {
+    margin-left: -2px;
+    margin-right: -2px;
+}
+}
+
+.ui.card.post-excerpt-card {
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.07);
+  border-radius: 3px;
+  background-color: #ffffff;
+  height: 32.5em;
+}
+
+.section.blog-page h1 {
+  text-align: center;
+
+}
+
+
+.section.blog-page h2 {
+  font-size: 18px;
+  margin-bottom: 0px;
+  padding-right: 15px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+@media (max-width: 411px) {
+  .ui.pagination.menu .item {
+    width: 3em;
+  }}

@@ -1,0 +1,61 @@
+#home-match ul {
+  list-style: none;
+}
+#home-match ul li:before {
+  content:"\2714\0020";
+}
+
+#home-match  h1 {
+  text-align: center;
+  padding-top: 50px!important;
+}
+
+#home-match  p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 0px;
+  line-height: 30px;
+  padding-bottom:10px;
+}
+#home-match  h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#home-match  li {
+  padding-bottom: 15px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+}
+
+#home-match  img {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#home-match form.ui.form {
+  width: 50%;
+  margin: auto;
+  padding-top:20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #home-match form.ui.form {
+    width: 70%;
+  }}
+
+  @media only screen and (max-width: 800px) {
+    #home-match form.ui.form {
+      width: 90%;
+    }}
+  
+#home-match form.ui.form label{
+display: none;
+}
+
+#home-match button.custom.ui.button.filled.ui.button {
+  margin: auto;
+  display: flex;
+}

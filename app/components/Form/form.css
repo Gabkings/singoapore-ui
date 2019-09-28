@@ -1,0 +1,401 @@
+.formio-form > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px
+}
+
+.formio-form > div > * {
+  width: 80%;
+}
+
+.formio-form fieldset {
+  border: 0;
+}
+
+/* Form Nav */
+.formio-form nav {
+  display: none;
+}
+/* End form Nav */
+
+/* Form section */
+.formio-form .formio-component,
+.formio-form .formio-component .card-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formio-form .formio-component.form-group > .control-label {
+  font-size: 16px;
+  /*font-weight: bold;*/
+  font-family: inherit;
+  margin-bottom: 16px;
+}
+
+.formio-form .formio-component.form-group label~.form-group {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  margin: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+  .formio-form .formio-component.form-group label~.form-group {
+    padding: 8px;
+    width: 100%;
+  }
+}
+
+.formio-form .formio-component.form-group .form-group .form-check {
+  display: flex;
+  align-items: center;
+  /*border-bottom: 1px solid rgba(0, 0, 0, 0.06);*/
+  padding: 0 8px;
+  width: 100%;
+}
+
+/* Form input */
+.formio-form .formio-component-day .input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formio-form .form-check .form-check-label {
+  padding: 15px 16px 10px 16px;  
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* Form checkbox */
+.formio-form .form-check .form-check-label input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.formio-form .form-check .form-check-label span {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  text-align: left;
+}
+
+.formio-form .form-check .form-check-label input~span:before {
+  content: " ";
+  margin: 0px 12px;
+  height: 19px;
+  min-width: 21px!important;
+  border-radius: 50%;
+  border: 2px solid #d3d3d3;
+  background-color: #fff;
+  display: inline-block;
+  font-size: 33px;
+  padding-bottom: 18px;
+  margin-top: -2px;
+}
+/* check-label input:checked~span:before */
+.formio-form .form-check .form-check-label input:checked~span:before {
+  background-color: #fcb02a;
+  color: #fff;
+  border: 0;
+  font-size: 48px;
+  padding-bottom: 22px!important;
+}
+/* End form checkbox */
+
+/* Form text input */
+.formio-form .formio-component input[type=text],
+.formio-form .formio-component textarea[type=text],
+.formio-form .formio-component input[type=email] {
+  padding: 10px;
+  border: 0.5px solid rgba(0,0,0,.06);
+  width: 75%;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+/* End form text input */
+
+.formio-form .formio-component.form-group .form-group .form-check .form-check-label span {
+  font-size: 15px;
+  font-weight: 200;
+  color: black;
+  letter-spacing: 0.3px;
+}
+/* End Form input */
+/* End Form section */
+
+/* File Selector */
+.formio-form .formio-component-file > div,
+.formio-form .formio-component-file > div > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.formio-form .formio-component-file ul {
+  width: 75%;
+  padding: 0;
+  margin: 0;
+}
+
+.formio-form .fileSelector,
+.formio-form .file {
+  width: 75%;
+}
+/*!* End File selector *!*/
+
+/* Form buttons */
+.formio-form .list-inline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 75%;
+}
+
+.formio-form .list-inline .list-inline-item {
+  padding: 0;
+}
+
+.formio-form .list-inline .list-inline-item:first-child {
+  /* display: none; */
+  /* margin: auto; */
+}
+
+.formio-form .list-inline .list-inline-item:last-child {
+  /* margin-left: auto; */
+  margin: auto;
+}
+
+.formio-form .btn {
+  font-size: 22px !important;
+}
+
+/* HACK: To change the content of the previous and next buttons */
+.formio-form .list-inline .list-inline-item button {
+  visibility: hidden;
+  width: 78px;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+}
+
+.formio-form .list-inline .list-inline-item button:before {
+  visibility: visible;
+  font-weight: 200;
+  padding: 8px 16px;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.12);
+  font-size: 18px;
+}
+.formio-form .list-inline .list-inline-item button.btn-wizard-nav-previous:before {
+  content: "\2190 Back";
+  color: grey;
+  border-radius: 4px;
+  margin-left: 140%;
+  padding: 10px 30px 8px 30px;
+}
+
+.form-check.form-group.has-feedback.formio-component.formio-component-checkbox.formio-component-IagreethatallinformationisaccurateasmuchaspossibleandthatImgenuinelylookingforaprofessionalformyservicesIallowSgHomeNeedstocontactmedirectlyviaemailandcontactnumbertofulfilmyservices .form-check-label input~span:before {
+  content: " ";
+  margin: 0 12px;
+  height: 24px!important;
+  min-width: 24px !important;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  background-color: white;
+  display: inline-block;
+  font-size: 40px;
+  padding-bottom: 22px;
+
+}
+
+.form-check.form-group.has-feedback.formio-component.formio-component-checkbox.formio-component-IagreethatallinformationisaccurateasmuchaspossibleandthatImgenuinelylookingforaprofessionalformyservicesIallowSgHomeNeedstocontactmedirectlyviaemailandcontactnumbertofulfilmyservices .form-check-label input:checked~span:before {
+  background-color: rgb(252, 176, 42);
+  content: "\26AC";
+  border: 0;
+  font-size: 0px;
+  min-width: 24px!important;
+  height: 24px!important;
+}
+#eegild + .list-inline .list-inline-item button.btn-wizard-nav-previous:before {
+  margin-left: -150% !important;
+  padding: 8px 16px;
+
+}
+
+.custom.ui.button.filled:hover {
+  background: #e8a205 !important;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out !important;
+}
+
+@media only screen and (max-width: 1210px){
+  .formio-form .list-inline .list-inline-item button.btn-wizard-nav-previous:before {
+
+    margin-left: 100% !important;
+  }
+}
+@media only screen and (max-width: 1100px){
+  .formio-form .list-inline .list-inline-item button.btn-wizard-nav-previous:before {
+
+    margin-left: 80% !important;
+  }
+}
+@media only screen and (max-width: 1025px){
+  .formio-form .list-inline .list-inline-item button.btn-wizard-nav-previous:before {
+
+    margin-left: 0% !important;
+  }
+
+}
+
+@media only screen and (max-width: 775px){
+  .formio-form .list-inline .list-inline-item button.btn-wizard-nav-previous:before {
+    padding: 8px 16px !important;
+    margin-left: -101% !important;
+  }
+  .formio-form .list-inline .list-inline-item button.btn-wizard-nav-next:before {
+    padding: 8px 16px !important;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .formio-form .list-inline .list-inline-item button.btn-wizard-nav-previous:before {
+    padding: 8px 16px !important;
+    margin-left: -151% !important;
+  }
+  .formio-form .list-inline .list-inline-item button.btn-wizard-nav-next:before {
+    padding: 8px 16px !important;
+    margin-left: -50%;
+  }
+}
+
+.formio-form .list-inline .list-inline-item button.btn-wizard-nav-next:before {
+  content: "Next \2192";
+  background: #fcb02a;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 30px 8px 30px;
+}
+.formio-component-Whatisthetypeofproperty + .list-inline .list-inline-item button.btn-wizard-nav-next:before {
+  content: "Next →";
+  background: rgb(252, 176, 42);
+  color: white;
+  border-radius: 4px;
+  padding: 10px 80px;
+
+}
+.formio-component-Whatisthetypeofproperty + .list-inline .list-inline-item button.btn-wizard-nav-next:before {
+  content: "Next →";
+  background: rgb(252, 176, 42);
+  color: white;
+  border-radius: 4px;
+  padding: 10px 80px;
+
+}
+
+/* form-group has-feedback formio-component formio-component-radio formio-component-choosetheappropriatestatusforthisproject  required */
+
+/* form-group has-feedback formio-component formio-component-radio formio-component-choosetheappropriatestatusforthisproject  required */
+
+.formio-form .list-inline .list-inline-item button.btn-wizard-nav-submit:before {
+  content: "Submit";
+  background: rgb(252, 176, 42);
+  color: white;
+}
+/* END HACK */
+/* End Form buttons */
+
+.form-progress{
+  height: 4px;
+  width: 100%;
+  margin: 2% 0 2% 0;
+  padding: 0 10% 0 10%;
+  display: block;
+}
+
+.form-progress-indicator{
+  transition: all .5s linear;
+  height: inherit;
+  background: #FFB100;
+}
+
+.form-check {
+  margin: 0px !important;
+}
+
+.form-check:hover {
+  cursor: pointer;
+}
+
+.has-error{
+  
+}
+
+.formio-form .formio-component.form-group>.control-label {
+  font-size: 17px;
+  font-family: inherit;
+  margin-bottom: 10px;
+  color: black;
+}
+
+
+div.form-check.checkbox label.control-label.form-check-label input~span:before{
+  content: " ";
+  margin: 0 12px;
+  height: 14px !important;
+  width: 17px;
+  min-width: 19px;
+  border-radius: 0;
+
+  border: 2px solid lightgray;
+  background-color: white;
+  display: inline-block;
+  /* font-size: 33px; */
+  padding-bottom: 16px;
+
+}
+div.form-check.checkbox label.control-label.form-check-label > span:before{
+  content: " ";
+  margin: 0 12px;
+  height: 14px !important;
+  width: 17px;
+  min-width: 19px;
+  border-radius: 0;
+  padding-left: 4px!important;
+
+  border: 2px solid lightgray;
+  background-color: white;
+  display: inline-block;
+  padding-bottom: 16px !important;
+
+}
+/* check-label input:checked~span:before */
+
+div.form-check.checkbox label.control-label.form-check-label input:checked~span:before{
+  background-color: rgb(252, 176, 42);
+  content: "✓";
+  /* content: "\26AC"; */
+  color: white;
+  border: 0;
+  font-size:17px;
+  padding-bottom: 19.5px !important;
+  padding-left: 3px;
+  padding-top: 1.5px;
+}
+

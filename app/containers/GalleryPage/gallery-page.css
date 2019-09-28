@@ -1,0 +1,87 @@
+.galleries-page {
+  background: url("https://s3-ap-southeast-1.amazonaws.com/sghomeneeds-gallery/images/DirectoryPage/orangeshades.png") repeat-y;
+  background-size: cover;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.galleries-page .galleries-grid {
+  max-width: 1024px;
+  width: 100%;
+}
+
+.galleries-page .gallery-single {
+  margin-bottom: 48px;
+}
+
+.galleries-page .gallery-single h4 {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.galleries-page .gallery-single p {
+  font-weight: normal;
+  font-size: 12px;
+  color: #888888;
+}
+
+
+.gallery-single .favourite-wrapper {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  z-index: 99;
+  display: none;
+}
+
+.gallery-single:hover .favourite-wrapper {
+  display: block;
+}
+
+.gallery-single:hover .gallery-favourite {
+  background-color: white!important;
+}
+
+div#gallery-detail-page {
+  padding-top: 20px;
+}
+
+
+.ui.card.full-width-card.undefined {
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.06);
+}
+
+.ten.wide.column {
+  padding-right: 0px!important;
+}
+
+.six.wide.column {
+  padding-left: 0px!important;
+}
+
+.search-menu {
+  width: 100%;
+}
+
+.galleries-page h1 {
+  padding-top:15px;
+}
+
+.galleries-page h2 {
+  font-size:18px;
+margin-top:0px;
+font-weight: 300;
+padding-top:10px;
+padding-bottom: 10px;
+}
+
+.galleries-page h3 {
+  font-size:17px;
+margin-bottom:2px;
+padding-top:5px;
+font-weight: 500;
+}

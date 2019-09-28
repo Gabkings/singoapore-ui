@@ -1,0 +1,29 @@
+.article_box:hover{
+    transform: scale(1.02);
+	transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.article_box{
+    transition: all 0.3s ease-in-out;
+}
+
+
+/*@media (max-width: 767px) {*/
+  /*.new-article-label {*/
+    /*margin-left: 37%;*/
+  /*}*/
+/*}*/
+
+/*.card-excerpt {*/
+  /*text-decoration: none;*/
+  /*color: rgb(93, 93, 93);*/
+/*}*/
+
+/*.post-excerpt-card {*/
+  /*width: 100% !important;*/
+/*}*/
+
+/*.post-excerpt-card h3 {*/
+  /*color: black;*/
+  /*!*font-weight: bold;*!*/
+/*}*/

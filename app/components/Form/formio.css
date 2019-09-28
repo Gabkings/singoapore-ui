@@ -1,0 +1,1018 @@
+.formio-form .flatpickr-calendar{background:0 0;opacity:0;display:none;text-align:center;visibility:hidden;padding:0;-webkit-animation:none;animation:none;direction:ltr;border:0;font-size:14px;line-height:24px;border-radius:5px;position:absolute;width:307.875px;-webkit-box-sizing:border-box;box-sizing:border-box;-ms-touch-action:manipulation;touch-action:manipulation;background:#fff;-webkit-box-shadow:1px 0 0 #e6e6e6,-1px 0 0 #e6e6e6,0 1px 0 #e6e6e6,0 -1px 0 #e6e6e6,0 3px 13px rgba(0,0,0,.08);box-shadow:1px 0 0 #e6e6e6,-1px 0 0 #e6e6e6,0 1px 0 #e6e6e6,0 -1px 0 #e6e6e6,0 3px 13px rgba(0,0,0,.08)}
+.formio-form .flatpickr-calendar.inline, .formio-form .flatpickr-calendar.open{opacity:1;max-height:640px;visibility:visible}
+.formio-form .flatpickr-calendar.open{display:inline-block;z-index:99999}
+.formio-form .flatpickr-calendar.animate.open{-webkit-animation:fpFadeInDown .3s cubic-bezier(.23,1,.32,1);animation:fpFadeInDown .3s cubic-bezier(.23,1,.32,1)}
+.formio-form .flatpickr-calendar.inline{display:block;position:relative;top:2px}
+.formio-form .flatpickr-calendar.static{position:absolute;top:calc(100% + 2px)}
+.formio-form .flatpickr-calendar.static.open{z-index:999;display:block}
+.formio-form .flatpickr-calendar.multiMonth .flatpickr-days .dayContainer:nth-child(n+1) .flatpickr-day.inRange:nth-child(7n+7){-webkit-box-shadow:none!important;box-shadow:none!important}
+.formio-form .flatpickr-calendar.multiMonth .flatpickr-days .dayContainer:nth-child(n+2) .flatpickr-day.inRange:nth-child(7n+1){-webkit-box-shadow:-2px 0 0 #e6e6e6,5px 0 0 #e6e6e6;box-shadow:-2px 0 0 #e6e6e6,5px 0 0 #e6e6e6}
+.formio-form .flatpickr-calendar .hasTime .dayContainer, .formio-form .flatpickr-calendar .hasWeeks .dayContainer{border-bottom:0;border-bottom-right-radius:0;border-bottom-left-radius:0}
+.formio-form .flatpickr-calendar .hasWeeks .dayContainer{border-left:0}
+.formio-form .flatpickr-calendar.showTimeInput.hasTime .flatpickr-time{height:40px;border-top:1px solid #e6e6e6}
+.formio-form .flatpickr-calendar.noCalendar.hasTime .flatpickr-time{height:auto}
+.formio-form .flatpickr-calendar:after, .formio-form .flatpickr-calendar:before{position:absolute;display:block;pointer-events:none;border:solid transparent;content:'';height:0;width:0;left:22px}
+.formio-form .flatpickr-calendar.rightMost:after, .formio-form .flatpickr-calendar.rightMost:before{left:auto;right:22px}
+.formio-form .flatpickr-calendar:before{border-width:5px;margin:0 -5px}
+.formio-form .flatpickr-calendar:after{border-width:4px;margin:0 -4px}
+.formio-form .flatpickr-calendar.arrowTop:after, .formio-form .flatpickr-calendar.arrowTop:before{bottom:100%}
+.formio-form .flatpickr-calendar.arrowTop:before{border-bottom-color:#e6e6e6}
+.formio-form .flatpickr-calendar.arrowTop:after{border-bottom-color:#fff}
+.formio-form .flatpickr-calendar.arrowBottom:after, .formio-form .flatpickr-calendar.arrowBottom:before{top:100%}
+.formio-form .flatpickr-calendar.arrowBottom:before{border-top-color:#e6e6e6}
+.formio-form .flatpickr-calendar.arrowBottom:after{border-top-color:#fff}
+.formio-form .flatpickr-calendar:focus{outline:0}
+.formio-form .flatpickr-wrapper{position:relative;display:inline-block}
+.formio-form .flatpickr-months{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
+.formio-form .flatpickr-months .flatpickr-month{background:0 0;color:rgba(0,0,0,.9);fill:rgba(0,0,0,.9);height:28px;line-height:1;text-align:center;position:relative;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;overflow:hidden;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1}
+.formio-form .flatpickr-months .flatpickr-next-month, .formio-form .flatpickr-months .flatpickr-prev-month{text-decoration:none;cursor:pointer;position:absolute;top:0;line-height:16px;height:28px;padding:10px;z-index:3;color:rgba(0,0,0,.9);fill:rgba(0,0,0,.9)}
+.formio-form .flatpickr-months .flatpickr-next-month.disabled, .formio-form .flatpickr-months .flatpickr-prev-month.disabled{display:none}
+.formio-form .flatpickr-months .flatpickr-next-month i, .formio-form .flatpickr-months .flatpickr-prev-month i{position:relative}
+.formio-form .flatpickr-months .flatpickr-next-month.flatpickr-prev-month, .formio-form .flatpickr-months .flatpickr-prev-month.flatpickr-prev-month{left:0}
+.formio-form .flatpickr-months .flatpickr-next-month.flatpickr-next-month, .formio-form .flatpickr-months .flatpickr-prev-month.flatpickr-next-month{right:0}
+.formio-form .flatpickr-months .flatpickr-next-month:hover, .formio-form .flatpickr-months .flatpickr-prev-month:hover{color:#959ea9}
+.formio-form .flatpickr-months .flatpickr-next-month:hover svg, .formio-form .flatpickr-months .flatpickr-prev-month:hover svg{fill:#f64747}
+.formio-form .flatpickr-months .flatpickr-next-month svg, .formio-form .flatpickr-months .flatpickr-prev-month svg{width:14px;height:14px}
+.formio-form .flatpickr-months .flatpickr-next-month svg path, .formio-form .flatpickr-months .flatpickr-prev-month svg path{-webkit-transition:fill .1s;transition:fill .1s;fill:inherit}
+.formio-form .numInputWrapper{position:relative;height:auto}
+.formio-form .numInputWrapper input, .formio-form .numInputWrapper span{display:inline-block}
+.formio-form .numInputWrapper input{width:100%}
+.formio-form .numInputWrapper input::-ms-clear{display:none}
+.formio-form .numInputWrapper span{position:absolute;right:0;width:14px;padding:0 4px 0 2px;height:50%;line-height:50%;opacity:0;cursor:pointer;border:1px solid rgba(57,57,57,.15);-webkit-box-sizing:border-box;box-sizing:border-box}
+.formio-form .numInputWrapper span:hover{background:rgba(0,0,0,.1)}
+.formio-form .numInputWrapper span:active{background:rgba(0,0,0,.2)}
+.formio-form .numInputWrapper span:after{display:block;content:"";position:absolute}
+.formio-form .numInputWrapper span.arrowUp{top:0;border-bottom:0}
+.formio-form .numInputWrapper span.arrowUp:after{border-left:4px solid transparent;border-right:4px solid transparent;border-bottom:4px solid rgba(57,57,57,.6);top:26%}
+.formio-form .numInputWrapper span.arrowDown{top:50%}
+.formio-form .numInputWrapper span.arrowDown:after{border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid rgba(57,57,57,.6);top:40%}
+.formio-form .numInputWrapper span svg{width:inherit;height:auto}
+.formio-form .numInputWrapper span svg path{fill:rgba(0,0,0,.5)}
+.formio-form .numInputWrapper:hover{background:rgba(0,0,0,.05)}
+.formio-form .numInputWrapper:hover span{opacity:1}
+.formio-form .flatpickr-current-month{font-size:135%;line-height:inherit;font-weight:300;color:inherit;position:absolute;width:75%;left:12.5%;padding:6.16px 0 0 0;line-height:1;height:28px;display:inline-block;text-align:center;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+.formio-form .flatpickr-current-month span.cur-month{font-family:inherit;font-weight:700;color:inherit;display:inline-block;margin-left:.5ch;padding:0}
+.formio-form .flatpickr-current-month span.cur-month:hover{background:rgba(0,0,0,.05)}
+.formio-form .flatpickr-current-month .numInputWrapper{width:6ch;width:7ch\0;display:inline-block}
+.formio-form .flatpickr-current-month .numInputWrapper span.arrowUp:after{border-bottom-color:rgba(0,0,0,.9)}
+.formio-form .flatpickr-current-month .numInputWrapper span.arrowDown:after{border-top-color:rgba(0,0,0,.9)}
+.formio-form .flatpickr-current-month input.cur-year{background:0 0;-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;cursor:text;padding:0 0 0 .5ch;margin:0;display:inline-block;font-size:inherit;font-family:inherit;font-weight:300;line-height:inherit;height:auto;border:0;border-radius:0;vertical-align:initial}
+.formio-form .flatpickr-current-month input.cur-year:focus{outline:0}
+.formio-form .flatpickr-current-month input.cur-year[disabled], .formio-form .flatpickr-current-month input.cur-year[disabled]:hover{font-size:100%;color:rgba(0,0,0,.5);background:0 0;pointer-events:none}
+.formio-form .flatpickr-weekdays{background:0 0;text-align:center;overflow:hidden;width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;height:28px}
+.formio-form .flatpickr-weekdays .flatpickr-weekdaycontainer{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1}
+.formio-form span.flatpickr-weekday{cursor:default;font-size:90%;background:0 0;color:rgba(0,0,0,.54);line-height:1;margin:0;text-align:center;display:block;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;font-weight:bolder}
+.formio-form .dayContainer, .formio-form .flatpickr-weeks{padding:1px 0 0 0}
+.formio-form .flatpickr-days{position:relative;overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;width:307.875px}
+.formio-form .flatpickr-days:focus{outline:0}
+.formio-form .dayContainer{padding:0;outline:0;text-align:left;width:307.875px;min-width:307.875px;max-width:307.875px;-webkit-box-sizing:border-box;box-sizing:border-box;display:inline-block;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-wrap:wrap;-ms-flex-pack:justify;-webkit-justify-content:space-around;justify-content:space-around;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);opacity:1}
+.formio-form .dayContainer+.dayContainer{-webkit-box-shadow:-1px 0 0 #e6e6e6;box-shadow:-1px 0 0 #e6e6e6}
+.formio-form .flatpickr-day{background:0 0;border:1px solid transparent;border-radius:150px;-webkit-box-sizing:border-box;box-sizing:border-box;color:#393939;cursor:pointer;font-weight:400;width:14.2857143%;-webkit-flex-basis:14.2857143%;-ms-flex-preferred-size:14.2857143%;flex-basis:14.2857143%;max-width:39px;height:39px;line-height:39px;margin:0;display:inline-block;position:relative;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;text-align:center}
+.formio-form .flatpickr-day.inRange, .formio-form .flatpickr-day.nextMonthDay.inRange, .formio-form .flatpickr-day.nextMonthDay.today.inRange, .formio-form .flatpickr-day.nextMonthDay:focus, .formio-form .flatpickr-day.nextMonthDay:hover, .formio-form .flatpickr-day.prevMonthDay.inRange, .formio-form .flatpickr-day.prevMonthDay.today.inRange, .formio-form .flatpickr-day.prevMonthDay:focus, .formio-form .flatpickr-day.prevMonthDay:hover, .formio-form .flatpickr-day.today.inRange, .formio-form .flatpickr-day:focus, .formio-form .flatpickr-day:hover{cursor:pointer;outline:0;background:#e6e6e6;border-color:#e6e6e6}
+.formio-form .flatpickr-day.today{border-color:#959ea9}
+.formio-form .flatpickr-day.today:focus, .formio-form .flatpickr-day.today:hover{border-color:#959ea9;background:#959ea9;color:#fff}
+.formio-form .flatpickr-day.endRange, .formio-form .flatpickr-day.endRange.inRange, .formio-form .flatpickr-day.endRange.nextMonthDay, .formio-form .flatpickr-day.endRange.prevMonthDay, .formio-form .flatpickr-day.endRange:focus, .formio-form .flatpickr-day.endRange:hover, .formio-form .flatpickr-day.selected, .formio-form .flatpickr-day.selected.inRange, .formio-form .flatpickr-day.selected.nextMonthDay, .formio-form .flatpickr-day.selected.prevMonthDay, .formio-form .flatpickr-day.selected:focus, .formio-form .flatpickr-day.selected:hover, .formio-form .flatpickr-day.startRange, .formio-form .flatpickr-day.startRange.inRange, .formio-form .flatpickr-day.startRange.nextMonthDay, .formio-form .flatpickr-day.startRange.prevMonthDay, .formio-form .flatpickr-day.startRange:focus, .formio-form .flatpickr-day.startRange:hover{background:#569ff7;-webkit-box-shadow:none;box-shadow:none;color:#fff;border-color:#569ff7}
+.formio-form .flatpickr-day.endRange.startRange, .formio-form .flatpickr-day.selected.startRange, .formio-form .flatpickr-day.startRange.startRange{border-radius:50px 0 0 50px}
+.formio-form .flatpickr-day.endRange.endRange, .formio-form .flatpickr-day.selected.endRange, .formio-form .flatpickr-day.startRange.endRange{border-radius:0 50px 50px 0}
+.formio-form .flatpickr-day.endRange.startRange+.endRange:not(:nth-child(7n+1)), .formio-form .flatpickr-day.selected.startRange+.endRange:not(:nth-child(7n+1)), .formio-form .flatpickr-day.startRange.startRange+.endRange:not(:nth-child(7n+1)){-webkit-box-shadow:-10px 0 0 #569ff7;box-shadow:-10px 0 0 #569ff7}
+.formio-form .flatpickr-day.endRange.startRange.endRange, .formio-form .flatpickr-day.selected.startRange.endRange, .formio-form .flatpickr-day.startRange.startRange.endRange{border-radius:50px}
+.formio-form .flatpickr-day.inRange{border-radius:0;-webkit-box-shadow:-5px 0 0 #e6e6e6,5px 0 0 #e6e6e6;box-shadow:-5px 0 0 #e6e6e6,5px 0 0 #e6e6e6}
+.formio-form .flatpickr-day.disabled, .formio-form .flatpickr-day.disabled:hover, .formio-form .flatpickr-day.nextMonthDay, .formio-form .flatpickr-day.notAllowed, .formio-form .flatpickr-day.notAllowed.nextMonthDay, .formio-form .flatpickr-day.notAllowed.prevMonthDay, .formio-form .flatpickr-day.prevMonthDay{color:rgba(57,57,57,.3);background:0 0;border-color:transparent;cursor:default}
+.formio-form .flatpickr-day.disabled, .formio-form .flatpickr-day.disabled:hover{cursor:not-allowed;color:rgba(57,57,57,.1)}
+.formio-form .flatpickr-day.week.selected{border-radius:0;-webkit-box-shadow:-5px 0 0 #569ff7,5px 0 0 #569ff7;box-shadow:-5px 0 0 #569ff7,5px 0 0 #569ff7}
+.formio-form .flatpickr-day.hidden{visibility:hidden}
+.formio-form .rangeMode .flatpickr-day{margin-top:1px}
+.formio-form .flatpickr-weekwrapper{display:inline-block;float:left}
+.formio-form .flatpickr-weekwrapper .flatpickr-weeks{padding:0 12px;-webkit-box-shadow:1px 0 0 #e6e6e6;box-shadow:1px 0 0 #e6e6e6}
+.formio-form .flatpickr-weekwrapper .flatpickr-weekday{float:none;width:100%;line-height:28px}
+.formio-form .flatpickr-weekwrapper span.flatpickr-day, .formio-form .flatpickr-weekwrapper span.flatpickr-day:hover{display:block;width:100%;max-width:none;color:rgba(57,57,57,.3);background:0 0;cursor:default;border:none}
+.formio-form .flatpickr-innerContainer{display:block;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-sizing:border-box;box-sizing:border-box;overflow:hidden}
+.formio-form .flatpickr-rContainer{display:inline-block;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+.formio-form .flatpickr-time{text-align:center;outline:0;display:block;height:0;line-height:40px;max-height:40px;-webkit-box-sizing:border-box;box-sizing:border-box;overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
+.formio-form .flatpickr-time:after{content:"";display:table;clear:both}
+.formio-form .flatpickr-time .numInputWrapper{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;width:40%;height:40px;float:left}
+.formio-form .flatpickr-time .numInputWrapper span.arrowUp:after{border-bottom-color:#393939}
+.formio-form .flatpickr-time .numInputWrapper span.arrowDown:after{border-top-color:#393939}
+.formio-form .flatpickr-time.hasSeconds .numInputWrapper{width:26%}
+.formio-form .flatpickr-time.time24hr .numInputWrapper{width:49%}
+.formio-form .flatpickr-time input{background:0 0;-webkit-box-shadow:none;box-shadow:none;border:0;border-radius:0;text-align:center;margin:0;padding:0;height:inherit;line-height:inherit;color:#393939;font-size:14px;position:relative;-webkit-box-sizing:border-box;box-sizing:border-box}
+.formio-form .flatpickr-time input.flatpickr-hour{font-weight:700}
+.formio-form .flatpickr-time input.flatpickr-minute, .formio-form .flatpickr-time input.flatpickr-second{font-weight:400}
+.formio-form .flatpickr-time input:focus{outline:0;border:0}
+.formio-form .flatpickr-time .flatpickr-am-pm, .formio-form .flatpickr-time .flatpickr-time-separator{height:inherit;display:inline-block;float:left;line-height:inherit;color:#393939;font-weight:700;width:2%;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center}
+.formio-form .flatpickr-time .flatpickr-am-pm{outline:0;width:18%;cursor:pointer;text-align:center;font-weight:400}
+.formio-form .flatpickr-time .flatpickr-am-pm:focus, .formio-form .flatpickr-time .flatpickr-am-pm:hover, .formio-form .flatpickr-time input:focus, .formio-form .flatpickr-time input:hover{background:#f3f3f3}
+.formio-form .flatpickr-input[readonly]{cursor:pointer}
+@-webkit-keyframes fpFadeInDown{from{opacity:0;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}to{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}
+@keyframes fpFadeInDown{from{opacity:0;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}to{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}
+.formio-form .choices{position:relative;margin-bottom:24px;font-size:16px}
+.formio-form .choices:focus{outline:0}
+.formio-form .choices:last-child{margin-bottom:0}
+.formio-form .choices.is-disabled .choices__inner, .formio-form .choices.is-disabled .choices__input{background-color:#eaeaea;cursor:not-allowed;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.formio-form .choices.is-disabled .choices__item{cursor:not-allowed}
+.formio-form .choices[data-type*=select-one]{cursor:pointer}
+.formio-form .choices[data-type*=select-one] .choices__inner{padding-bottom:7.5px}
+.formio-form .choices[data-type*=select-one] .choices__input{display:block;width:100%;padding:10px;border-bottom:1px solid #ddd;background-color:#fff;margin:0}
+.formio-form .choices[data-type*=select-one] .choices__button{background-image:url(../../icons/cross-inverse.svg);padding:0;background-size:8px;position:absolute;top:50%;right:0;margin-top:-10px;margin-right:25px;height:20px;width:20px;border-radius:10em;opacity:.5}
+.formio-form .choices[data-type*=select-one] .choices__button:focus, .formio-form .choices[data-type*=select-one] .choices__button:hover{opacity:1}
+.formio-form .choices[data-type*=select-one] .choices__button:focus{box-shadow:0 0 0 2px #00bcd4}
+.formio-form .choices[data-type*=select-one]:after{content:"";height:0;width:0;border-style:solid;border-color:#333 transparent transparent transparent;border-width:5px;position:absolute;right:11.5px;top:50%;margin-top:-2.5px;pointer-events:none}
+.formio-form .choices[data-type*=select-one].is-open:after{border-color:transparent transparent #333 transparent;margin-top:-7.5px}
+.formio-form .choices[data-type*=select-one][dir=rtl]:after{left:11.5px;right:auto}
+.formio-form .choices[data-type*=select-one][dir=rtl] .choices__button{right:auto;left:0;margin-left:25px;margin-right:0}
+.formio-form .choices[data-type*=select-multiple] .choices__inner, .formio-form .choices[data-type*=text] .choices__inner{cursor:text}
+.formio-form .choices[data-type*=select-multiple] .choices__button, .formio-form .choices[data-type*=text] .choices__button{position:relative;display:inline-block;margin:0 -4px 0 8px;padding-left:16px;border-left:1px solid #008fa1;background-image:url(../../icons/cross.svg);background-size:8px;width:8px;line-height:1;opacity:.75}
+.formio-form .choices[data-type*=select-multiple] .choices__button:focus, .formio-form .choices[data-type*=select-multiple] .choices__button:hover, .formio-form .choices[data-type*=text] .choices__button:focus, .formio-form .choices[data-type*=text] .choices__button:hover{opacity:1}
+.formio-form .choices__inner{display:inline-block;vertical-align:top;width:100%;background-color:#f9f9f9;padding:7.5px 7.5px 3.75px;border:1px solid #ddd;border-radius:2.5px;font-size:14px;min-height:44px;overflow:hidden}
+.formio-form .is-focused .choices__inner, .formio-form .is-open .choices__inner{border-color:#b7b7b7}
+.formio-form .is-open .choices__inner{border-radius:2.5px 2.5px 0 0}
+.formio-form .is-flipped.is-open .choices__inner{border-radius:0 0 2.5px 2.5px}
+.formio-form .choices__list{margin:0;padding-left:0;list-style:none}
+.formio-form .choices__list--single{display:inline-block;padding:4px 16px 4px 4px;width:100%}
+.formio-form [dir=rtl] .choices__list--single{padding-right:4px;padding-left:16px}
+.formio-form .choices__list--single .choices__item{width:100%}
+.formio-form .choices__list--multiple{display:inline}
+.formio-form .choices__list--multiple .choices__item{display:inline-block;vertical-align:middle;border-radius:20px;padding:4px 10px;font-size:12px;font-weight:500;margin-right:3.75px;margin-bottom:3.75px;background-color:#00bcd4;border:1px solid #00a5bb;color:#fff;word-break:break-all}
+.formio-form .choices__list--multiple .choices__item[data-deletable]{padding-right:5px}
+.formio-form [dir=rtl] .choices__list--multiple .choices__item{margin-right:0;margin-left:3.75px}
+.formio-form .choices__list--multiple .choices__item.is-highlighted{background-color:#00a5bb;border:1px solid #008fa1}
+.formio-form .is-disabled .choices__list--multiple .choices__item{background-color:#aaa;border:1px solid #919191}
+.formio-form .choices__list--dropdown{display:none;z-index:1;position:absolute;width:100%;background-color:#fff;border:1px solid #ddd;top:100%;margin-top:-1px;border-bottom-left-radius:2.5px;border-bottom-right-radius:2.5px;overflow:hidden;word-break:break-all}
+.formio-form .choices__list--dropdown.is-active{display:block}
+.formio-form .is-open .choices__list--dropdown{border-color:#b7b7b7}
+.formio-form .is-flipped .choices__list--dropdown{top:auto;bottom:100%;margin-top:0;margin-bottom:-1px;border-radius:.25rem .25rem 0 0}
+.formio-form .choices__list--dropdown .choices__list{position:relative;max-height:300px;overflow:auto;-webkit-overflow-scrolling:touch;will-change:scroll-position}
+.formio-form .choices__list--dropdown .choices__item{position:relative;padding:10px;font-size:14px}
+.formio-form [dir=rtl] .choices__list--dropdown .choices__item{text-align:right}
+@media (min-width:640px){
+.formio-form .choices__list--dropdown .choices__item--selectable{padding-right:100px}
+.formio-form .choices__list--dropdown .choices__item--selectable:after{content:attr(data-select-text);font-size:12px;opacity:0;position:absolute;right:10px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.formio-form [dir=rtl] .choices__list--dropdown .choices__item--selectable{text-align:right;padding-left:100px;padding-right:10px}
+.formio-form [dir=rtl] .choices__list--dropdown .choices__item--selectable:after{right:auto;left:10px}
+}
+.formio-form .choices__list--dropdown .choices__item--selectable.is-highlighted{background-color:#f2f2f2}
+.formio-form .choices__list--dropdown .choices__item--selectable.is-highlighted:after{opacity:.5}
+.formio-form .choices__item{cursor:default}
+.formio-form .choices__item--selectable{cursor:pointer}
+.formio-form .choices__item--disabled{cursor:not-allowed;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;opacity:.5}
+.formio-form .choices__heading{font-weight:600;font-size:12px;padding:10px;border-bottom:1px solid #f7f7f7;color:gray}
+.formio-form .choices__button{text-indent:-9999px;-webkit-appearance:none;-moz-appearance:none;appearance:none;border:0;background-color:transparent;background-repeat:no-repeat;background-position:center;cursor:pointer}
+.formio-form .choices__button:focus{outline:0}
+.formio-form .choices__input{display:inline-block;vertical-align:baseline;background-color:#f9f9f9;font-size:14px;margin-bottom:5px;border:0;border-radius:0;max-width:100%;padding:4px 0 4px 2px}
+.formio-form .choices__input:focus{outline:0}
+.formio-form [dir=rtl] .choices__input{padding-right:2px;padding-left:0}
+.formio-form .choices__placeholder{opacity:.5}
+.formio-form dialog{position:absolute;left:0;right:0;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;margin:auto;border:solid;padding:1em;background:#fff;color:#000;display:block}
+.formio-form dialog:not([open]){display:none}
+.formio-form dialog+.backdrop{position:fixed;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,.1)}
+.formio-form ._dialog_overlay{position:fixed;top:0;right:0;bottom:0;left:0}
+.formio-form dialog.fixed{position:fixed;top:50%;transform:translate(0,-50%)}
+.formio-form .gu-mirror{position:fixed!important;margin:0!important;z-index:9999!important;opacity:.8;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";filter:alpha(opacity=80)}
+.formio-form .gu-hide{display:none!important}
+.formio-form .gu-unselectable{-webkit-user-select:none!important;-moz-user-select:none!important;-ms-user-select:none!important;user-select:none!important}
+.formio-form .gu-transit{opacity:.2;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";filter:alpha(opacity=20)}
+@font-face{font-family:FontAwesome;src:url(../../fonts/fontawesome-webfont.eot?v=4.7.0);src:url(../../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'),url(../../fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'),url(../../fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'),url(../../fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'),url(../../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');font-weight:400;font-style:normal}
+.formio-form .fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.formio-form .fa-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}
+.formio-form .fa-2x{font-size:2em}
+.formio-form .fa-3x{font-size:3em}
+.formio-form .fa-4x{font-size:4em}
+.formio-form .fa-5x{font-size:5em}
+.formio-form .fa-fw{width:1.28571429em;text-align:center}
+.formio-form .fa-ul{padding-left:0;margin-left:2.14285714em;list-style-type:none}
+.formio-form .fa-ul>li{position:relative}
+.formio-form .fa-li{position:absolute;left:-2.14285714em;width:2.14285714em;top:.14285714em;text-align:center}
+.formio-form .fa-li.fa-lg{left:-1.85714286em}
+.formio-form .fa-border{padding:.2em .25em .15em;border:solid .08em #eee;border-radius:.1em}
+.formio-form .fa-pull-left{float:left}
+.formio-form .fa-pull-right{float:right}
+.formio-form .fa.fa-pull-left{margin-right:.3em}
+.formio-form .fa.fa-pull-right{margin-left:.3em}
+.formio-form .pull-right{float:right}
+.formio-form .pull-left{float:left}
+.formio-form .fa.pull-left{margin-right:.3em}
+.formio-form .fa.pull-right{margin-left:.3em}
+.formio-form .fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}
+.formio-form .fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}
+@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+.formio-form .fa-rotate-90{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}
+.formio-form .fa-rotate-180{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}
+.formio-form .fa-rotate-270{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}
+.formio-form .fa-flip-horizontal{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";-webkit-transform:scale(-1,1);-ms-transform:scale(-1,1);transform:scale(-1,1)}
+.formio-form .fa-flip-vertical{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";-webkit-transform:scale(1,-1);-ms-transform:scale(1,-1);transform:scale(1,-1)}
+.formio-form :root .fa-flip-horizontal, .formio-form :root .fa-flip-vertical, .formio-form :root .fa-rotate-180, .formio-form :root .fa-rotate-270, .formio-form :root .fa-rotate-90{filter:none}
+.formio-form .fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle}
+.formio-form .fa-stack-1x, .formio-form .fa-stack-2x{position:absolute;left:0;width:100%;text-align:center}
+.formio-form .fa-stack-1x{line-height:inherit}
+.formio-form .fa-stack-2x{font-size:2em}
+.formio-form .fa-inverse{color:#fff}
+.formio-form .fa-glass:before{content:"\f000"}
+.formio-form .fa-music:before{content:"\f001"}
+.formio-form .fa-search:before{content:"\f002"}
+.formio-form .fa-envelope-o:before{content:"\f003"}
+.formio-form .fa-heart:before{content:"\f004"}
+.formio-form .fa-star:before{content:"\f005"}
+.formio-form .fa-star-o:before{content:"\f006"}
+.formio-form .fa-user:before{content:"\f007"}
+.formio-form .fa-film:before{content:"\f008"}
+.formio-form .fa-th-large:before{content:"\f009"}
+.formio-form .fa-th:before{content:"\f00a"}
+.formio-form .fa-th-list:before{content:"\f00b"}
+.formio-form .fa-check:before{content:"\f00c"}
+.formio-form .fa-close:before, .formio-form .fa-remove:before, .formio-form .fa-times:before{content:"\f00d"}
+.formio-form .fa-search-plus:before{content:"\f00e"}
+.formio-form .fa-search-minus:before{content:"\f010"}
+.formio-form .fa-power-off:before{content:"\f011"}
+.formio-form .fa-signal:before{content:"\f012"}
+.formio-form .fa-cog:before, .formio-form .fa-gear:before{content:"\f013"}
+.formio-form .fa-trash-o:before{content:"\f014"}
+.formio-form .fa-home:before{content:"\f015"}
+.formio-form .fa-file-o:before{content:"\f016"}
+.formio-form .fa-clock-o:before{content:"\f017"}
+.formio-form .fa-road:before{content:"\f018"}
+.formio-form .fa-download:before{content:"\f019"}
+.formio-form .fa-arrow-circle-o-down:before{content:"\f01a"}
+.formio-form .fa-arrow-circle-o-up:before{content:"\f01b"}
+.formio-form .fa-inbox:before{content:"\f01c"}
+.formio-form .fa-play-circle-o:before{content:"\f01d"}
+.formio-form .fa-repeat:before, .formio-form .fa-rotate-right:before{content:"\f01e"}
+.formio-form .fa-refresh:before{content:"\f021"}
+.formio-form .fa-list-alt:before{content:"\f022"}
+.formio-form .fa-lock:before{content:"\f023"}
+.formio-form .fa-flag:before{content:"\f024"}
+.formio-form .fa-headphones:before{content:"\f025"}
+.formio-form .fa-volume-off:before{content:"\f026"}
+.formio-form .fa-volume-down:before{content:"\f027"}
+.formio-form .fa-volume-up:before{content:"\f028"}
+.formio-form .fa-qrcode:before{content:"\f029"}
+.formio-form .fa-barcode:before{content:"\f02a"}
+.formio-form .fa-tag:before{content:"\f02b"}
+.formio-form .fa-tags:before{content:"\f02c"}
+.formio-form .fa-book:before{content:"\f02d"}
+.formio-form .fa-bookmark:before{content:"\f02e"}
+.formio-form .fa-print:before{content:"\f02f"}
+.formio-form .fa-camera:before{content:"\f030"}
+.formio-form .fa-font:before{content:"\f031"}
+.formio-form .fa-bold:before{content:"\f032"}
+.formio-form .fa-italic:before{content:"\f033"}
+.formio-form .fa-text-height:before{content:"\f034"}
+.formio-form .fa-text-width:before{content:"\f035"}
+.formio-form .fa-align-left:before{content:"\f036"}
+.formio-form .fa-align-center:before{content:"\f037"}
+.formio-form .fa-align-right:before{content:"\f038"}
+.formio-form .fa-align-justify:before{content:"\f039"}
+.formio-form .fa-list:before{content:"\f03a"}
+.formio-form .fa-dedent:before, .formio-form .fa-outdent:before{content:"\f03b"}
+.formio-form .fa-indent:before{content:"\f03c"}
+.formio-form .fa-video-camera:before{content:"\f03d"}
+.formio-form .fa-image:before, .formio-form .fa-photo:before, .formio-form .fa-picture-o:before{content:"\f03e"}
+.formio-form .fa-pencil:before{content:"\f040"}
+.formio-form .fa-map-marker:before{content:"\f041"}
+.formio-form .fa-adjust:before{content:"\f042"}
+.formio-form .fa-tint:before{content:"\f043"}
+.formio-form .fa-edit:before, .formio-form .fa-pencil-square-o:before{content:"\f044"}
+.formio-form .fa-share-square-o:before{content:"\f045"}
+.formio-form .fa-check-square-o:before{content:"\f046"}
+.formio-form .fa-arrows:before{content:"\f047"}
+.formio-form .fa-step-backward:before{content:"\f048"}
+.formio-form .fa-fast-backward:before{content:"\f049"}
+.formio-form .fa-backward:before{content:"\f04a"}
+.formio-form .fa-play:before{content:"\f04b"}
+.formio-form .fa-pause:before{content:"\f04c"}
+.formio-form .fa-stop:before{content:"\f04d"}
+.formio-form .fa-forward:before{content:"\f04e"}
+.formio-form .fa-fast-forward:before{content:"\f050"}
+.formio-form .fa-step-forward:before{content:"\f051"}
+.formio-form .fa-eject:before{content:"\f052"}
+.formio-form .fa-chevron-left:before{content:"\f053"}
+.formio-form .fa-chevron-right:before{content:"\f054"}
+.formio-form .fa-plus-circle:before{content:"\f055"}
+.formio-form .fa-minus-circle:before{content:"\f056"}
+.formio-form .fa-times-circle:before{content:"\f057"}
+.formio-form .fa-check-circle:before{content:"\f058"}
+.formio-form .fa-question-circle:before{content:"\f059"}
+.formio-form .fa-info-circle:before{content:"\f05a"}
+.formio-form .fa-crosshairs:before{content:"\f05b"}
+.formio-form .fa-times-circle-o:before{content:"\f05c"}
+.formio-form .fa-check-circle-o:before{content:"\f05d"}
+.formio-form .fa-ban:before{content:"\f05e"}
+.formio-form .fa-arrow-left:before{content:"\f060"}
+.formio-form .fa-arrow-right:before{content:"\f061"}
+.formio-form .fa-arrow-up:before{content:"\f062"}
+.formio-form .fa-arrow-down:before{content:"\f063"}
+.formio-form .fa-mail-forward:before, .formio-form .fa-share:before{content:"\f064"}
+.formio-form .fa-expand:before{content:"\f065"}
+.formio-form .fa-compress:before{content:"\f066"}
+.formio-form .fa-plus:before{content:"\f067"}
+.formio-form .fa-minus:before{content:"\f068"}
+.formio-form .fa-asterisk:before{content:"\f069"}
+.formio-form .fa-exclamation-circle:before{content:"\f06a"}
+.formio-form .fa-gift:before{content:"\f06b"}
+.formio-form .fa-leaf:before{content:"\f06c"}
+.formio-form .fa-fire:before{content:"\f06d"}
+.formio-form .fa-eye:before{content:"\f06e"}
+.formio-form .fa-eye-slash:before{content:"\f070"}
+.formio-form .fa-exclamation-triangle:before, .formio-form .fa-warning:before{content:"\f071"}
+.formio-form .fa-plane:before{content:"\f072"}
+.formio-form .fa-calendar:before{content:"\f073"}
+.formio-form .fa-random:before{content:"\f074"}
+.formio-form .fa-comment:before{content:"\f075"}
+.formio-form .fa-magnet:before{content:"\f076"}
+.formio-form .fa-chevron-up:before{content:"\f077"}
+.formio-form .fa-chevron-down:before{content:"\f078"}
+.formio-form .fa-retweet:before{content:"\f079"}
+.formio-form .fa-shopping-cart:before{content:"\f07a"}
+.formio-form .fa-folder:before{content:"\f07b"}
+.formio-form .fa-folder-open:before{content:"\f07c"}
+.formio-form .fa-arrows-v:before{content:"\f07d"}
+.formio-form .fa-arrows-h:before{content:"\f07e"}
+.formio-form .fa-bar-chart-o:before, .formio-form .fa-bar-chart:before{content:"\f080"}
+.formio-form .fa-twitter-square:before{content:"\f081"}
+.formio-form .fa-facebook-square:before{content:"\f082"}
+.formio-form .fa-camera-retro:before{content:"\f083"}
+.formio-form .fa-key:before{content:"\f084"}
+.formio-form .fa-cogs:before, .formio-form .fa-gears:before{content:"\f085"}
+.formio-form .fa-comments:before{content:"\f086"}
+.formio-form .fa-thumbs-o-up:before{content:"\f087"}
+.formio-form .fa-thumbs-o-down:before{content:"\f088"}
+.formio-form .fa-star-half:before{content:"\f089"}
+.formio-form .fa-heart-o:before{content:"\f08a"}
+.formio-form .fa-sign-out:before{content:"\f08b"}
+.formio-form .fa-linkedin-square:before{content:"\f08c"}
+.formio-form .fa-thumb-tack:before{content:"\f08d"}
+.formio-form .fa-external-link:before{content:"\f08e"}
+.formio-form .fa-sign-in:before{content:"\f090"}
+.formio-form .fa-trophy:before{content:"\f091"}
+.formio-form .fa-github-square:before{content:"\f092"}
+.formio-form .fa-upload:before{content:"\f093"}
+.formio-form .fa-lemon-o:before{content:"\f094"}
+.formio-form .fa-phone:before{content:"\f095"}
+.formio-form .fa-square-o:before{content:"\f096"}
+.formio-form .fa-bookmark-o:before{content:"\f097"}
+.formio-form .fa-phone-square:before{content:"\f098"}
+.formio-form .fa-twitter:before{content:"\f099"}
+.formio-form .fa-facebook-f:before, .formio-form .fa-facebook:before{content:"\f09a"}
+.formio-form .fa-github:before{content:"\f09b"}
+.formio-form .fa-unlock:before{content:"\f09c"}
+.formio-form .fa-credit-card:before{content:"\f09d"}
+.formio-form .fa-feed:before, .formio-form .fa-rss:before{content:"\f09e"}
+.formio-form .fa-hdd-o:before{content:"\f0a0"}
+.formio-form .fa-bullhorn:before{content:"\f0a1"}
+.formio-form .fa-bell:before{content:"\f0f3"}
+.formio-form .fa-certificate:before{content:"\f0a3"}
+.formio-form .fa-hand-o-right:before{content:"\f0a4"}
+.formio-form .fa-hand-o-left:before{content:"\f0a5"}
+.formio-form .fa-hand-o-up:before{content:"\f0a6"}
+.formio-form .fa-hand-o-down:before{content:"\f0a7"}
+.formio-form .fa-arrow-circle-left:before{content:"\f0a8"}
+.formio-form .fa-arrow-circle-right:before{content:"\f0a9"}
+.formio-form .fa-arrow-circle-up:before{content:"\f0aa"}
+.formio-form .fa-arrow-circle-down:before{content:"\f0ab"}
+.formio-form .fa-globe:before{content:"\f0ac"}
+.formio-form .fa-wrench:before{content:"\f0ad"}
+.formio-form .fa-tasks:before{content:"\f0ae"}
+.formio-form .fa-filter:before{content:"\f0b0"}
+.formio-form .fa-briefcase:before{content:"\f0b1"}
+.formio-form .fa-arrows-alt:before{content:"\f0b2"}
+.formio-form .fa-group:before, .formio-form .fa-users:before{content:"\f0c0"}
+.formio-form .fa-chain:before, .formio-form .fa-link:before{content:"\f0c1"}
+.formio-form .fa-cloud:before{content:"\f0c2"}
+.formio-form .fa-flask:before{content:"\f0c3"}
+.formio-form .fa-cut:before, .formio-form .fa-scissors:before{content:"\f0c4"}
+.formio-form .fa-copy:before, .formio-form .fa-files-o:before{content:"\f0c5"}
+.formio-form .fa-paperclip:before{content:"\f0c6"}
+.formio-form .fa-floppy-o:before, .formio-form .fa-save:before{content:"\f0c7"}
+.formio-form .fa-square:before{content:"\f0c8"}
+.formio-form .fa-bars:before, .formio-form .fa-navicon:before, .formio-form .fa-reorder:before{content:"\f0c9"}
+.formio-form .fa-list-ul:before{content:"\f0ca"}
+.formio-form .fa-list-ol:before{content:"\f0cb"}
+.formio-form .fa-strikethrough:before{content:"\f0cc"}
+.formio-form .fa-underline:before{content:"\f0cd"}
+.formio-form .fa-table:before{content:"\f0ce"}
+.formio-form .fa-magic:before{content:"\f0d0"}
+.formio-form .fa-truck:before{content:"\f0d1"}
+.formio-form .fa-pinterest:before{content:"\f0d2"}
+.formio-form .fa-pinterest-square:before{content:"\f0d3"}
+.formio-form .fa-google-plus-square:before{content:"\f0d4"}
+.formio-form .fa-google-plus:before{content:"\f0d5"}
+.formio-form .fa-money:before{content:"\f0d6"}
+.formio-form .fa-caret-down:before{content:"\f0d7"}
+.formio-form .fa-caret-up:before{content:"\f0d8"}
+.formio-form .fa-caret-left:before{content:"\f0d9"}
+.formio-form .fa-caret-right:before{content:"\f0da"}
+.formio-form .fa-columns:before{content:"\f0db"}
+.formio-form .fa-sort:before, .formio-form .fa-unsorted:before{content:"\f0dc"}
+.formio-form .fa-sort-desc:before, .formio-form .fa-sort-down:before{content:"\f0dd"}
+.formio-form .fa-sort-asc:before, .formio-form .fa-sort-up:before{content:"\f0de"}
+.formio-form .fa-envelope:before{content:"\f0e0"}
+.formio-form .fa-linkedin:before{content:"\f0e1"}
+.formio-form .fa-rotate-left:before, .formio-form .fa-undo:before{content:"\f0e2"}
+.formio-form .fa-gavel:before, .formio-form .fa-legal:before{content:"\f0e3"}
+.formio-form .fa-dashboard:before, .formio-form .fa-tachometer:before{content:"\f0e4"}
+.formio-form .fa-comment-o:before{content:"\f0e5"}
+.formio-form .fa-comments-o:before{content:"\f0e6"}
+.formio-form .fa-bolt:before, .formio-form .fa-flash:before{content:"\f0e7"}
+.formio-form .fa-sitemap:before{content:"\f0e8"}
+.formio-form .fa-umbrella:before{content:"\f0e9"}
+.formio-form .fa-clipboard:before, .formio-form .fa-paste:before{content:"\f0ea"}
+.formio-form .fa-lightbulb-o:before{content:"\f0eb"}
+.formio-form .fa-exchange:before{content:"\f0ec"}
+.formio-form .fa-cloud-download:before{content:"\f0ed"}
+.formio-form .fa-cloud-upload:before{content:"\f0ee"}
+.formio-form .fa-user-md:before{content:"\f0f0"}
+.formio-form .fa-stethoscope:before{content:"\f0f1"}
+.formio-form .fa-suitcase:before{content:"\f0f2"}
+.formio-form .fa-bell-o:before{content:"\f0a2"}
+.formio-form .fa-coffee:before{content:"\f0f4"}
+.formio-form .fa-cutlery:before{content:"\f0f5"}
+.formio-form .fa-file-text-o:before{content:"\f0f6"}
+.formio-form .fa-building-o:before{content:"\f0f7"}
+.formio-form .fa-hospital-o:before{content:"\f0f8"}
+.formio-form .fa-ambulance:before{content:"\f0f9"}
+.formio-form .fa-medkit:before{content:"\f0fa"}
+.formio-form .fa-fighter-jet:before{content:"\f0fb"}
+.formio-form .fa-beer:before{content:"\f0fc"}
+.formio-form .fa-h-square:before{content:"\f0fd"}
+.formio-form .fa-plus-square:before{content:"\f0fe"}
+.formio-form .fa-angle-double-left:before{content:"\f100"}
+.formio-form .fa-angle-double-right:before{content:"\f101"}
+.formio-form .fa-angle-double-up:before{content:"\f102"}
+.formio-form .fa-angle-double-down:before{content:"\f103"}
+.formio-form .fa-angle-left:before{content:"\f104"}
+.formio-form .fa-angle-right:before{content:"\f105"}
+.formio-form .fa-angle-up:before{content:"\f106"}
+.formio-form .fa-angle-down:before{content:"\f107"}
+.formio-form .fa-desktop:before{content:"\f108"}
+.formio-form .fa-laptop:before{content:"\f109"}
+.formio-form .fa-tablet:before{content:"\f10a"}
+.formio-form .fa-mobile-phone:before, .formio-form .fa-mobile:before{content:"\f10b"}
+.formio-form .fa-circle-o:before{content:"\f10c"}
+.formio-form .fa-quote-left:before{content:"\f10d"}
+.formio-form .fa-quote-right:before{content:"\f10e"}
+.formio-form .fa-spinner:before{content:"\f110"}
+.formio-form .fa-circle:before{content:"\f111"}
+.formio-form .fa-mail-reply:before, .formio-form .fa-reply:before{content:"\f112"}
+.formio-form .fa-github-alt:before{content:"\f113"}
+.formio-form .fa-folder-o:before{content:"\f114"}
+.formio-form .fa-folder-open-o:before{content:"\f115"}
+.formio-form .fa-smile-o:before{content:"\f118"}
+.formio-form .fa-frown-o:before{content:"\f119"}
+.formio-form .fa-meh-o:before{content:"\f11a"}
+.formio-form .fa-gamepad:before{content:"\f11b"}
+.formio-form .fa-keyboard-o:before{content:"\f11c"}
+.formio-form .fa-flag-o:before{content:"\f11d"}
+.formio-form .fa-flag-checkered:before{content:"\f11e"}
+.formio-form .fa-terminal:before{content:"\f120"}
+.formio-form .fa-code:before{content:"\f121"}
+.formio-form .fa-mail-reply-all:before, .formio-form .fa-reply-all:before{content:"\f122"}
+.formio-form .fa-star-half-empty:before, .formio-form .fa-star-half-full:before, .formio-form .fa-star-half-o:before{content:"\f123"}
+.formio-form .fa-location-arrow:before{content:"\f124"}
+.formio-form .fa-crop:before{content:"\f125"}
+.formio-form .fa-code-fork:before{content:"\f126"}
+.formio-form .fa-chain-broken:before, .formio-form .fa-unlink:before{content:"\f127"}
+.formio-form .fa-question:before{content:"\f128"}
+.formio-form .fa-info:before{content:"\f129"}
+.formio-form .fa-exclamation:before{content:"\f12a"}
+.formio-form .fa-superscript:before{content:"\f12b"}
+.formio-form .fa-subscript:before{content:"\f12c"}
+.formio-form .fa-eraser:before{content:"\f12d"}
+.formio-form .fa-puzzle-piece:before{content:"\f12e"}
+.formio-form .fa-microphone:before{content:"\f130"}
+.formio-form .fa-microphone-slash:before{content:"\f131"}
+.formio-form .fa-shield:before{content:"\f132"}
+.formio-form .fa-calendar-o:before{content:"\f133"}
+.formio-form .fa-fire-extinguisher:before{content:"\f134"}
+.formio-form .fa-rocket:before{content:"\f135"}
+.formio-form .fa-maxcdn:before{content:"\f136"}
+.formio-form .fa-chevron-circle-left:before{content:"\f137"}
+.formio-form .fa-chevron-circle-right:before{content:"\f138"}
+.formio-form .fa-chevron-circle-up:before{content:"\f139"}
+.formio-form .fa-chevron-circle-down:before{content:"\f13a"}
+.formio-form .fa-html5:before{content:"\f13b"}
+.formio-form .fa-css3:before{content:"\f13c"}
+.formio-form .fa-anchor:before{content:"\f13d"}
+.formio-form .fa-unlock-alt:before{content:"\f13e"}
+.formio-form .fa-bullseye:before{content:"\f140"}
+.formio-form .fa-ellipsis-h:before{content:"\f141"}
+.formio-form .fa-ellipsis-v:before{content:"\f142"}
+.formio-form .fa-rss-square:before{content:"\f143"}
+.formio-form .fa-play-circle:before{content:"\f144"}
+.formio-form .fa-ticket:before{content:"\f145"}
+.formio-form .fa-minus-square:before{content:"\f146"}
+.formio-form .fa-minus-square-o:before{content:"\f147"}
+.formio-form .fa-level-up:before{content:"\f148"}
+.formio-form .fa-level-down:before{content:"\f149"}
+.formio-form .fa-check-square:before{content:"\f14a"}
+.formio-form .fa-pencil-square:before{content:"\f14b"}
+.formio-form .fa-external-link-square:before{content:"\f14c"}
+.formio-form .fa-share-square:before{content:"\f14d"}
+.formio-form .fa-compass:before{content:"\f14e"}
+.formio-form .fa-caret-square-o-down:before, .formio-form .fa-toggle-down:before{content:"\f150"}
+.formio-form .fa-caret-square-o-up:before, .formio-form .fa-toggle-up:before{content:"\f151"}
+.formio-form .fa-caret-square-o-right:before, .formio-form .fa-toggle-right:before{content:"\f152"}
+.formio-form .fa-eur:before, .formio-form .fa-euro:before{content:"\f153"}
+.formio-form .fa-gbp:before{content:"\f154"}
+.formio-form .fa-dollar:before, .formio-form .fa-usd:before{content:"\f155"}
+.formio-form .fa-inr:before, .formio-form .fa-rupee:before{content:"\f156"}
+.formio-form .fa-cny:before, .formio-form .fa-jpy:before, .formio-form .fa-rmb:before, .formio-form .fa-yen:before{content:"\f157"}
+.formio-form .fa-rouble:before, .formio-form .fa-rub:before, .formio-form .fa-ruble:before{content:"\f158"}
+.formio-form .fa-krw:before, .formio-form .fa-won:before{content:"\f159"}
+.formio-form .fa-bitcoin:before, .formio-form .fa-btc:before{content:"\f15a"}
+.formio-form .fa-file:before{content:"\f15b"}
+.formio-form .fa-file-text:before{content:"\f15c"}
+.formio-form .fa-sort-alpha-asc:before{content:"\f15d"}
+.formio-form .fa-sort-alpha-desc:before{content:"\f15e"}
+.formio-form .fa-sort-amount-asc:before{content:"\f160"}
+.formio-form .fa-sort-amount-desc:before{content:"\f161"}
+.formio-form .fa-sort-numeric-asc:before{content:"\f162"}
+.formio-form .fa-sort-numeric-desc:before{content:"\f163"}
+.formio-form .fa-thumbs-up:before{content:"\f164"}
+.formio-form .fa-thumbs-down:before{content:"\f165"}
+.formio-form .fa-youtube-square:before{content:"\f166"}
+.formio-form .fa-youtube:before{content:"\f167"}
+.formio-form .fa-xing:before{content:"\f168"}
+.formio-form .fa-xing-square:before{content:"\f169"}
+.formio-form .fa-youtube-play:before{content:"\f16a"}
+.formio-form .fa-dropbox:before{content:"\f16b"}
+.formio-form .fa-stack-overflow:before{content:"\f16c"}
+.formio-form .fa-instagram:before{content:"\f16d"}
+.formio-form .fa-flickr:before{content:"\f16e"}
+.formio-form .fa-adn:before{content:"\f170"}
+.formio-form .fa-bitbucket:before{content:"\f171"}
+.formio-form .fa-bitbucket-square:before{content:"\f172"}
+.formio-form .fa-tumblr:before{content:"\f173"}
+.formio-form .fa-tumblr-square:before{content:"\f174"}
+.formio-form .fa-long-arrow-down:before{content:"\f175"}
+.formio-form .fa-long-arrow-up:before{content:"\f176"}
+.formio-form .fa-long-arrow-left:before{content:"\f177"}
+.formio-form .fa-long-arrow-right:before{content:"\f178"}
+.formio-form .fa-apple:before{content:"\f179"}
+.formio-form .fa-windows:before{content:"\f17a"}
+.formio-form .fa-android:before{content:"\f17b"}
+.formio-form .fa-linux:before{content:"\f17c"}
+.formio-form .fa-dribbble:before{content:"\f17d"}
+.formio-form .fa-skype:before{content:"\f17e"}
+.formio-form .fa-foursquare:before{content:"\f180"}
+.formio-form .fa-trello:before{content:"\f181"}
+.formio-form .fa-female:before{content:"\f182"}
+.formio-form .fa-male:before{content:"\f183"}
+.formio-form .fa-gittip:before, .formio-form .fa-gratipay:before{content:"\f184"}
+.formio-form .fa-sun-o:before{content:"\f185"}
+.formio-form .fa-moon-o:before{content:"\f186"}
+.formio-form .fa-archive:before{content:"\f187"}
+.formio-form .fa-bug:before{content:"\f188"}
+.formio-form .fa-vk:before{content:"\f189"}
+.formio-form .fa-weibo:before{content:"\f18a"}
+.formio-form .fa-renren:before{content:"\f18b"}
+.formio-form .fa-pagelines:before{content:"\f18c"}
+.formio-form .fa-stack-exchange:before{content:"\f18d"}
+.formio-form .fa-arrow-circle-o-right:before{content:"\f18e"}
+.formio-form .fa-arrow-circle-o-left:before{content:"\f190"}
+.formio-form .fa-caret-square-o-left:before, .formio-form .fa-toggle-left:before{content:"\f191"}
+.formio-form .fa-dot-circle-o:before{content:"\f192"}
+.formio-form .fa-wheelchair:before{content:"\f193"}
+.formio-form .fa-vimeo-square:before{content:"\f194"}
+.formio-form .fa-try:before, .formio-form .fa-turkish-lira:before{content:"\f195"}
+.formio-form .fa-plus-square-o:before{content:"\f196"}
+.formio-form .fa-space-shuttle:before{content:"\f197"}
+.formio-form .fa-slack:before{content:"\f198"}
+.formio-form .fa-envelope-square:before{content:"\f199"}
+.formio-form .fa-wordpress:before{content:"\f19a"}
+.formio-form .fa-openid:before{content:"\f19b"}
+.formio-form .fa-bank:before, .formio-form .fa-institution:before, .formio-form .fa-university:before{content:"\f19c"}
+.formio-form .fa-graduation-cap:before, .formio-form .fa-mortar-board:before{content:"\f19d"}
+.formio-form .fa-yahoo:before{content:"\f19e"}
+.formio-form .fa-google:before{content:"\f1a0"}
+.formio-form .fa-reddit:before{content:"\f1a1"}
+.formio-form .fa-reddit-square:before{content:"\f1a2"}
+.formio-form .fa-stumbleupon-circle:before{content:"\f1a3"}
+.formio-form .fa-stumbleupon:before{content:"\f1a4"}
+.formio-form .fa-delicious:before{content:"\f1a5"}
+.formio-form .fa-digg:before{content:"\f1a6"}
+.formio-form .fa-pied-piper-pp:before{content:"\f1a7"}
+.formio-form .fa-pied-piper-alt:before{content:"\f1a8"}
+.formio-form .fa-drupal:before{content:"\f1a9"}
+.formio-form .fa-joomla:before{content:"\f1aa"}
+.formio-form .fa-language:before{content:"\f1ab"}
+.formio-form .fa-fax:before{content:"\f1ac"}
+.formio-form .fa-building:before{content:"\f1ad"}
+.formio-form .fa-child:before{content:"\f1ae"}
+.formio-form .fa-paw:before{content:"\f1b0"}
+.formio-form .fa-spoon:before{content:"\f1b1"}
+.formio-form .fa-cube:before{content:"\f1b2"}
+.formio-form .fa-cubes:before{content:"\f1b3"}
+.formio-form .fa-behance:before{content:"\f1b4"}
+.formio-form .fa-behance-square:before{content:"\f1b5"}
+.formio-form .fa-steam:before{content:"\f1b6"}
+.formio-form .fa-steam-square:before{content:"\f1b7"}
+.formio-form .fa-recycle:before{content:"\f1b8"}
+.formio-form .fa-automobile:before, .formio-form .fa-car:before{content:"\f1b9"}
+.formio-form .fa-cab:before, .formio-form .fa-taxi:before{content:"\f1ba"}
+.formio-form .fa-tree:before{content:"\f1bb"}
+.formio-form .fa-spotify:before{content:"\f1bc"}
+.formio-form .fa-deviantart:before{content:"\f1bd"}
+.formio-form .fa-soundcloud:before{content:"\f1be"}
+.formio-form .fa-database:before{content:"\f1c0"}
+.formio-form .fa-file-pdf-o:before{content:"\f1c1"}
+.formio-form .fa-file-word-o:before{content:"\f1c2"}
+.formio-form .fa-file-excel-o:before{content:"\f1c3"}
+.formio-form .fa-file-powerpoint-o:before{content:"\f1c4"}
+.formio-form .fa-file-image-o:before, .formio-form .fa-file-photo-o:before, .formio-form .fa-file-picture-o:before{content:"\f1c5"}
+.formio-form .fa-file-archive-o:before, .formio-form .fa-file-zip-o:before{content:"\f1c6"}
+.formio-form .fa-file-audio-o:before, .formio-form .fa-file-sound-o:before{content:"\f1c7"}
+.formio-form .fa-file-movie-o:before, .formio-form .fa-file-video-o:before{content:"\f1c8"}
+.formio-form .fa-file-code-o:before{content:"\f1c9"}
+.formio-form .fa-vine:before{content:"\f1ca"}
+.formio-form .fa-codepen:before{content:"\f1cb"}
+.formio-form .fa-jsfiddle:before{content:"\f1cc"}
+.formio-form .fa-life-bouy:before, .formio-form .fa-life-buoy:before, .formio-form .fa-life-ring:before, .formio-form .fa-life-saver:before, .formio-form .fa-support:before{content:"\f1cd"}
+.formio-form .fa-circle-o-notch:before{content:"\f1ce"}
+.formio-form .fa-ra:before, .formio-form .fa-rebel:before, .formio-form .fa-resistance:before{content:"\f1d0"}
+.formio-form .fa-empire:before, .formio-form .fa-ge:before{content:"\f1d1"}
+.formio-form .fa-git-square:before{content:"\f1d2"}
+.formio-form .fa-git:before{content:"\f1d3"}
+.formio-form .fa-hacker-news:before, .formio-form .fa-y-combinator-square:before, .formio-form .fa-yc-square:before{content:"\f1d4"}
+.formio-form .fa-tencent-weibo:before{content:"\f1d5"}
+.formio-form .fa-qq:before{content:"\f1d6"}
+.formio-form .fa-wechat:before, .formio-form .fa-weixin:before{content:"\f1d7"}
+.formio-form .fa-paper-plane:before, .formio-form .fa-send:before{content:"\f1d8"}
+.formio-form .fa-paper-plane-o:before, .formio-form .fa-send-o:before{content:"\f1d9"}
+.formio-form .fa-history:before{content:"\f1da"}
+.formio-form .fa-circle-thin:before{content:"\f1db"}
+.formio-form .fa-header:before{content:"\f1dc"}
+.formio-form .fa-paragraph:before{content:"\f1dd"}
+.formio-form .fa-sliders:before{content:"\f1de"}
+.formio-form .fa-share-alt:before{content:"\f1e0"}
+.formio-form .fa-share-alt-square:before{content:"\f1e1"}
+.formio-form .fa-bomb:before{content:"\f1e2"}
+.formio-form .fa-futbol-o:before, .formio-form .fa-soccer-ball-o:before{content:"\f1e3"}
+.formio-form .fa-tty:before{content:"\f1e4"}
+.formio-form .fa-binoculars:before{content:"\f1e5"}
+.formio-form .fa-plug:before{content:"\f1e6"}
+.formio-form .fa-slideshare:before{content:"\f1e7"}
+.formio-form .fa-twitch:before{content:"\f1e8"}
+.formio-form .fa-yelp:before{content:"\f1e9"}
+.formio-form .fa-newspaper-o:before{content:"\f1ea"}
+.formio-form .fa-wifi:before{content:"\f1eb"}
+.formio-form .fa-calculator:before{content:"\f1ec"}
+.formio-form .fa-paypal:before{content:"\f1ed"}
+.formio-form .fa-google-wallet:before{content:"\f1ee"}
+.formio-form .fa-cc-visa:before{content:"\f1f0"}
+.formio-form .fa-cc-mastercard:before{content:"\f1f1"}
+.formio-form .fa-cc-discover:before{content:"\f1f2"}
+.formio-form .fa-cc-amex:before{content:"\f1f3"}
+.formio-form .fa-cc-paypal:before{content:"\f1f4"}
+.formio-form .fa-cc-stripe:before{content:"\f1f5"}
+.formio-form .fa-bell-slash:before{content:"\f1f6"}
+.formio-form .fa-bell-slash-o:before{content:"\f1f7"}
+.formio-form .fa-trash:before{content:"\f1f8"}
+.formio-form .fa-copyright:before{content:"\f1f9"}
+.formio-form .fa-at:before{content:"\f1fa"}
+.formio-form .fa-eyedropper:before{content:"\f1fb"}
+.formio-form .fa-paint-brush:before{content:"\f1fc"}
+.formio-form .fa-birthday-cake:before{content:"\f1fd"}
+.formio-form .fa-area-chart:before{content:"\f1fe"}
+.formio-form .fa-pie-chart:before{content:"\f200"}
+.formio-form .fa-line-chart:before{content:"\f201"}
+.formio-form .fa-lastfm:before{content:"\f202"}
+.formio-form .fa-lastfm-square:before{content:"\f203"}
+.formio-form .fa-toggle-off:before{content:"\f204"}
+.formio-form .fa-toggle-on:before{content:"\f205"}
+.formio-form .fa-bicycle:before{content:"\f206"}
+.formio-form .fa-bus:before{content:"\f207"}
+.formio-form .fa-ioxhost:before{content:"\f208"}
+.formio-form .fa-angellist:before{content:"\f209"}
+.formio-form .fa-cc:before{content:"\f20a"}
+.formio-form .fa-ils:before, .formio-form .fa-shekel:before, .formio-form .fa-sheqel:before{content:"\f20b"}
+.formio-form .fa-meanpath:before{content:"\f20c"}
+.formio-form .fa-buysellads:before{content:"\f20d"}
+.formio-form .fa-connectdevelop:before{content:"\f20e"}
+.formio-form .fa-dashcube:before{content:"\f210"}
+.formio-form .fa-forumbee:before{content:"\f211"}
+.formio-form .fa-leanpub:before{content:"\f212"}
+.formio-form .fa-sellsy:before{content:"\f213"}
+.formio-form .fa-shirtsinbulk:before{content:"\f214"}
+.formio-form .fa-simplybuilt:before{content:"\f215"}
+.formio-form .fa-skyatlas:before{content:"\f216"}
+.formio-form .fa-cart-plus:before{content:"\f217"}
+.formio-form .fa-cart-arrow-down:before{content:"\f218"}
+.formio-form .fa-diamond:before{content:"\f219"}
+.formio-form .fa-ship:before{content:"\f21a"}
+.formio-form .fa-user-secret:before{content:"\f21b"}
+.formio-form .fa-motorcycle:before{content:"\f21c"}
+.formio-form .fa-street-view:before{content:"\f21d"}
+.formio-form .fa-heartbeat:before{content:"\f21e"}
+.formio-form .fa-venus:before{content:"\f221"}
+.formio-form .fa-mars:before{content:"\f222"}
+.formio-form .fa-mercury:before{content:"\f223"}
+.formio-form .fa-intersex:before, .formio-form .fa-transgender:before{content:"\f224"}
+.formio-form .fa-transgender-alt:before{content:"\f225"}
+.formio-form .fa-venus-double:before{content:"\f226"}
+.formio-form .fa-mars-double:before{content:"\f227"}
+.formio-form .fa-venus-mars:before{content:"\f228"}
+.formio-form .fa-mars-stroke:before{content:"\f229"}
+.formio-form .fa-mars-stroke-v:before{content:"\f22a"}
+.formio-form .fa-mars-stroke-h:before{content:"\f22b"}
+.formio-form .fa-neuter:before{content:"\f22c"}
+.formio-form .fa-genderless:before{content:"\f22d"}
+.formio-form .fa-facebook-official:before{content:"\f230"}
+.formio-form .fa-pinterest-p:before{content:"\f231"}
+.formio-form .fa-whatsapp:before{content:"\f232"}
+.formio-form .fa-server:before{content:"\f233"}
+.formio-form .fa-user-plus:before{content:"\f234"}
+.formio-form .fa-user-times:before{content:"\f235"}
+.formio-form .fa-bed:before, .formio-form .fa-hotel:before{content:"\f236"}
+.formio-form .fa-viacoin:before{content:"\f237"}
+.formio-form .fa-train:before{content:"\f238"}
+.formio-form .fa-subway:before{content:"\f239"}
+.formio-form .fa-medium:before{content:"\f23a"}
+.formio-form .fa-y-combinator:before, .formio-form .fa-yc:before{content:"\f23b"}
+.formio-form .fa-optin-monster:before{content:"\f23c"}
+.formio-form .fa-opencart:before{content:"\f23d"}
+.formio-form .fa-expeditedssl:before{content:"\f23e"}
+.formio-form .fa-battery-4:before, .formio-form .fa-battery-full:before, .formio-form .fa-battery:before{content:"\f240"}
+.formio-form .fa-battery-3:before, .formio-form .fa-battery-three-quarters:before{content:"\f241"}
+.formio-form .fa-battery-2:before, .formio-form .fa-battery-half:before{content:"\f242"}
+.formio-form .fa-battery-1:before, .formio-form .fa-battery-quarter:before{content:"\f243"}
+.formio-form .fa-battery-0:before, .formio-form .fa-battery-empty:before{content:"\f244"}
+.formio-form .fa-mouse-pointer:before{content:"\f245"}
+.formio-form .fa-i-cursor:before{content:"\f246"}
+.formio-form .fa-object-group:before{content:"\f247"}
+.formio-form .fa-object-ungroup:before{content:"\f248"}
+.formio-form .fa-sticky-note:before{content:"\f249"}
+.formio-form .fa-sticky-note-o:before{content:"\f24a"}
+.formio-form .fa-cc-jcb:before{content:"\f24b"}
+.formio-form .fa-cc-diners-club:before{content:"\f24c"}
+.formio-form .fa-clone:before{content:"\f24d"}
+.formio-form .fa-balance-scale:before{content:"\f24e"}
+.formio-form .fa-hourglass-o:before{content:"\f250"}
+.formio-form .fa-hourglass-1:before, .formio-form .fa-hourglass-start:before{content:"\f251"}
+.formio-form .fa-hourglass-2:before, .formio-form .fa-hourglass-half:before{content:"\f252"}
+.formio-form .fa-hourglass-3:before, .formio-form .fa-hourglass-end:before{content:"\f253"}
+.formio-form .fa-hourglass:before{content:"\f254"}
+.formio-form .fa-hand-grab-o:before, .formio-form .fa-hand-rock-o:before{content:"\f255"}
+.formio-form .fa-hand-paper-o:before, .formio-form .fa-hand-stop-o:before{content:"\f256"}
+.formio-form .fa-hand-scissors-o:before{content:"\f257"}
+.formio-form .fa-hand-lizard-o:before{content:"\f258"}
+.formio-form .fa-hand-spock-o:before{content:"\f259"}
+.formio-form .fa-hand-pointer-o:before{content:"\f25a"}
+.formio-form .fa-hand-peace-o:before{content:"\f25b"}
+.formio-form .fa-trademark:before{content:"\f25c"}
+.formio-form .fa-registered:before{content:"\f25d"}
+.formio-form .fa-creative-commons:before{content:"\f25e"}
+.formio-form .fa-gg:before{content:"\f260"}
+.formio-form .fa-gg-circle:before{content:"\f261"}
+.formio-form .fa-tripadvisor:before{content:"\f262"}
+.formio-form .fa-odnoklassniki:before{content:"\f263"}
+.formio-form .fa-odnoklassniki-square:before{content:"\f264"}
+.formio-form .fa-get-pocket:before{content:"\f265"}
+.formio-form .fa-wikipedia-w:before{content:"\f266"}
+.formio-form .fa-safari:before{content:"\f267"}
+.formio-form .fa-chrome:before{content:"\f268"}
+.formio-form .fa-firefox:before{content:"\f269"}
+.formio-form .fa-opera:before{content:"\f26a"}
+.formio-form .fa-internet-explorer:before{content:"\f26b"}
+.formio-form .fa-television:before, .formio-form .fa-tv:before{content:"\f26c"}
+.formio-form .fa-contao:before{content:"\f26d"}
+.formio-form .fa-500px:before{content:"\f26e"}
+.formio-form .fa-amazon:before{content:"\f270"}
+.formio-form .fa-calendar-plus-o:before{content:"\f271"}
+.formio-form .fa-calendar-minus-o:before{content:"\f272"}
+.formio-form .fa-calendar-times-o:before{content:"\f273"}
+.formio-form .fa-calendar-check-o:before{content:"\f274"}
+.formio-form .fa-industry:before{content:"\f275"}
+.formio-form .fa-map-pin:before{content:"\f276"}
+.formio-form .fa-map-signs:before{content:"\f277"}
+.formio-form .fa-map-o:before{content:"\f278"}
+.formio-form .fa-map:before{content:"\f279"}
+.formio-form .fa-commenting:before{content:"\f27a"}
+.formio-form .fa-commenting-o:before{content:"\f27b"}
+.formio-form .fa-houzz:before{content:"\f27c"}
+.formio-form .fa-vimeo:before{content:"\f27d"}
+.formio-form .fa-black-tie:before{content:"\f27e"}
+.formio-form .fa-fonticons:before{content:"\f280"}
+.formio-form .fa-reddit-alien:before{content:"\f281"}
+.formio-form .fa-edge:before{content:"\f282"}
+.formio-form .fa-credit-card-alt:before{content:"\f283"}
+.formio-form .fa-codiepie:before{content:"\f284"}
+.formio-form .fa-modx:before{content:"\f285"}
+.formio-form .fa-fort-awesome:before{content:"\f286"}
+.formio-form .fa-usb:before{content:"\f287"}
+.formio-form .fa-product-hunt:before{content:"\f288"}
+.formio-form .fa-mixcloud:before{content:"\f289"}
+.formio-form .fa-scribd:before{content:"\f28a"}
+.formio-form .fa-pause-circle:before{content:"\f28b"}
+.formio-form .fa-pause-circle-o:before{content:"\f28c"}
+.formio-form .fa-stop-circle:before{content:"\f28d"}
+.formio-form .fa-stop-circle-o:before{content:"\f28e"}
+.formio-form .fa-shopping-bag:before{content:"\f290"}
+.formio-form .fa-shopping-basket:before{content:"\f291"}
+.formio-form .fa-hashtag:before{content:"\f292"}
+.formio-form .fa-bluetooth:before{content:"\f293"}
+.formio-form .fa-bluetooth-b:before{content:"\f294"}
+.formio-form .fa-percent:before{content:"\f295"}
+.formio-form .fa-gitlab:before{content:"\f296"}
+.formio-form .fa-wpbeginner:before{content:"\f297"}
+.formio-form .fa-wpforms:before{content:"\f298"}
+.formio-form .fa-envira:before{content:"\f299"}
+.formio-form .fa-universal-access:before{content:"\f29a"}
+.formio-form .fa-wheelchair-alt:before{content:"\f29b"}
+.formio-form .fa-question-circle-o:before{content:"\f29c"}
+.formio-form .fa-blind:before{content:"\f29d"}
+.formio-form .fa-audio-description:before{content:"\f29e"}
+.formio-form .fa-volume-control-phone:before{content:"\f2a0"}
+.formio-form .fa-braille:before{content:"\f2a1"}
+.formio-form .fa-assistive-listening-systems:before{content:"\f2a2"}
+.formio-form .fa-american-sign-language-interpreting:before, .formio-form .fa-asl-interpreting:before{content:"\f2a3"}
+.formio-form .fa-deaf:before, .formio-form .fa-deafness:before, .formio-form .fa-hard-of-hearing:before{content:"\f2a4"}
+.formio-form .fa-glide:before{content:"\f2a5"}
+.formio-form .fa-glide-g:before{content:"\f2a6"}
+.formio-form .fa-sign-language:before, .formio-form .fa-signing:before{content:"\f2a7"}
+.formio-form .fa-low-vision:before{content:"\f2a8"}
+.formio-form .fa-viadeo:before{content:"\f2a9"}
+.formio-form .fa-viadeo-square:before{content:"\f2aa"}
+.formio-form .fa-snapchat:before{content:"\f2ab"}
+.formio-form .fa-snapchat-ghost:before{content:"\f2ac"}
+.formio-form .fa-snapchat-square:before{content:"\f2ad"}
+.formio-form .fa-pied-piper:before{content:"\f2ae"}
+.formio-form .fa-first-order:before{content:"\f2b0"}
+.formio-form .fa-yoast:before{content:"\f2b1"}
+.formio-form .fa-themeisle:before{content:"\f2b2"}
+.formio-form .fa-google-plus-circle:before, .formio-form .fa-google-plus-official:before{content:"\f2b3"}
+.formio-form .fa-fa:before, .formio-form .fa-font-awesome:before{content:"\f2b4"}
+.formio-form .fa-handshake-o:before{content:"\f2b5"}
+.formio-form .fa-envelope-open:before{content:"\f2b6"}
+.formio-form .fa-envelope-open-o:before{content:"\f2b7"}
+.formio-form .fa-linode:before{content:"\f2b8"}
+.formio-form .fa-address-book:before{content:"\f2b9"}
+.formio-form .fa-address-book-o:before{content:"\f2ba"}
+.formio-form .fa-address-card:before, .formio-form .fa-vcard:before{content:"\f2bb"}
+.formio-form .fa-address-card-o:before, .formio-form .fa-vcard-o:before{content:"\f2bc"}
+.formio-form .fa-user-circle:before{content:"\f2bd"}
+.formio-form .fa-user-circle-o:before{content:"\f2be"}
+.formio-form .fa-user-o:before{content:"\f2c0"}
+.formio-form .fa-id-badge:before{content:"\f2c1"}
+.formio-form .fa-drivers-license:before, .formio-form .fa-id-card:before{content:"\f2c2"}
+.formio-form .fa-drivers-license-o:before, .formio-form .fa-id-card-o:before{content:"\f2c3"}
+.formio-form .fa-quora:before{content:"\f2c4"}
+.formio-form .fa-free-code-camp:before{content:"\f2c5"}
+.formio-form .fa-telegram:before{content:"\f2c6"}
+.formio-form .fa-thermometer-4:before, .formio-form .fa-thermometer-full:before, .formio-form .fa-thermometer:before{content:"\f2c7"}
+.formio-form .fa-thermometer-3:before, .formio-form .fa-thermometer-three-quarters:before{content:"\f2c8"}
+.formio-form .fa-thermometer-2:before, .formio-form .fa-thermometer-half:before{content:"\f2c9"}
+.formio-form .fa-thermometer-1:before, .formio-form .fa-thermometer-quarter:before{content:"\f2ca"}
+.formio-form .fa-thermometer-0:before, .formio-form .fa-thermometer-empty:before{content:"\f2cb"}
+.formio-form .fa-shower:before{content:"\f2cc"}
+.formio-form .fa-bath:before, .formio-form .fa-bathtub:before, .formio-form .fa-s15:before{content:"\f2cd"}
+.formio-form .fa-podcast:before{content:"\f2ce"}
+.formio-form .fa-window-maximize:before{content:"\f2d0"}
+.formio-form .fa-window-minimize:before{content:"\f2d1"}
+.formio-form .fa-window-restore:before{content:"\f2d2"}
+.formio-form .fa-times-rectangle:before, .formio-form .fa-window-close:before{content:"\f2d3"}
+.formio-form .fa-times-rectangle-o:before, .formio-form .fa-window-close-o:before{content:"\f2d4"}
+.formio-form .fa-bandcamp:before{content:"\f2d5"}
+.formio-form .fa-grav:before{content:"\f2d6"}
+.formio-form .fa-etsy:before{content:"\f2d7"}
+.formio-form .fa-imdb:before{content:"\f2d8"}
+.formio-form .fa-ravelry:before{content:"\f2d9"}
+.formio-form .fa-eercast:before{content:"\f2da"}
+.formio-form .fa-microchip:before{content:"\f2db"}
+.formio-form .fa-snowflake-o:before{content:"\f2dc"}
+.formio-form .fa-superpowers:before{content:"\f2dd"}
+.formio-form .fa-wpexplorer:before{content:"\f2de"}
+.formio-form .fa-meetup:before{content:"\f2e0"}
+.formio-form .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+.formio-form .sr-only-focusable:active, .formio-form .sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}
+.formio-form .formio-form{position:relative;min-height:80px}
+.formio-form .formio-disabled-input .form-control.flatpickr-input{background-color:#eee}
+.formio-form .formio-component.has-error .invalid-feedback{display:block}
+.formio-form .formio-wysiwyg-editor{min-height:200px;background-color:#fff}
+.formio-form .has-feedback .form-control{padding-right:10px}
+.formio-form .has-feedback .form-control[type=hidden]{padding-right:0}
+.formio-form .has-error.bg-danger{padding:4px}
+.formio-form .ql-source:after{content:"[source]";white-space:nowrap}
+.formio-form .quill-source-code{width:100%;margin:0;background:#1d1d1d;box-sizing:border-box;color:#ccc;font-size:15px;outline:0;padding:20px;line-height:24px;font-family:Consolas,Menlo,Monaco,"Courier New",monospace;position:absolute;top:0;bottom:0;border:none;display:none}
+.formio-form .formio-component-tags tags{background-color:#fff}
+.formio-form .field-required:after{content:" *";color:red}
+.formio-form .glyphicon-spin{-webkit-animation:formio-spin 1s infinite linear;-moz-animation:formio-spin 1s infinite linear;-o-animation:formio-spin 1s infinite linear;animation:formio-spin 1s infinite linear}
+@-moz-keyframes formio-spin{from{-moz-transform:rotate(0)}to{-moz-transform:rotate(360deg)}}
+@-webkit-keyframes formio-spin{from{-webkit-transform:rotate(0)}to{-webkit-transform:rotate(360deg)}}
+@keyframes formio-spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+.formio-form .button-icon-right{margin-left:5px}
+.formio-form .formio-component-submit .submit-success::after{font-family:'Glyphicons Halflings';content:'\e013';position:relative;right:-4px;top:1;line-height:1}
+.formio-form .formio-component-submit .submit-fail::after{font-family:'Glyphicons Halflings';content:'\e014';position:relative;right:-4px;top:1;line-height:1}
+.formio-form .formio-component-submit .submit-fail[disabled]{opacity:1}
+.formio-form .form-control.flatpickr-input{background-color:#fff}
+.formio-form td>.form-group{margin-bottom:0}
+.formio-form .signature-pad{position:relative}
+.formio-form .signature-pad-body{overflow:hidden}
+.formio-form .signature-pad-canvas{border-radius:4px;box-shadow:0 0 5px rgba(0,0,0,.02) inset;border:1px solid #f4f4f4}
+.formio-form .btn.signature-pad-refresh{position:absolute;left:0;top:0;z-index:1000;padding:3px;line-height:0}
+.formio-form .choices__list--dropdown .choices__item--selectable{padding-right:0}
+.formio-form .signature-pad-refresh img{height:1.2em}
+.formio-form .signature-pad-footer{text-align:center;color:#c3c3c3}
+.formio-form .loader-wrapper{z-index:1000;position:absolute;top:0;left:0;bottom:0;right:0;background-color:rgba(0,0,0,.1)}
+.formio-form .loader{position:absolute;left:50%;top:50%;margin-left:-30px;margin-top:-30px;z-index:10000;display:inline-block;border:6px solid #f3f3f3;border-top:6px solid #3498db;border-radius:50%;width:60px;height:60px;animation:spin 2s linear infinite}
+@keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+.formio-form .choices__list--dropdown{z-index:100}
+.formio-form .choices__list--multiple .choices__item{border-radius:0;padding:2px 8px;line-height:1em;margin-bottom:6px}
+.formio-form .choices__list--single{padding:0}
+.formio-form .choices__input{padding:2px}
+.formio-form .formio-component-file .fileSelector{padding:15px;border:2px dashed #ddd;text-align:center}
+.formio-form .formio-component-file .fileSelector.fileDragOver{border-color:#127abe}
+.formio-form .formio-component-file .fileSelector .fa, .formio-form .formio-component-file .fileSelector .glyphicon{font-size:20px;margin-right:5px}
+.formio-form .formio-component-file .fileSelector .browse{cursor:pointer}
+@-webkit-keyframes formio-dialog-fadeout{0%{opacity:1}100%{opacity:0}}
+@keyframes formio-dialog-fadeout{0%{opacity:1}100%{opacity:0}}
+@-webkit-keyframes formio-dialog-fadein{0%{opacity:0}100%{opacity:1}}
+@keyframes formio-dialog-fadein{0%{opacity:0}100%{opacity:1}}
+.formio-form .formio-dialog{box-sizing:border-box;font-size:.8em;color:#666}
+.formio-form .formio-dialog *, .formio-form .formio-dialog :after, .formio-form .formio-dialog :before{box-sizing:inherit}
+.formio-form .formio-dialog{position:fixed;overflow:auto;-webkit-overflow-scrolling:touch;z-index:10000;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,.4);animation:formio-dialog-fadein .5s}
+.formio-form .formio-dialog.formio-dialog-disabled-animation, .formio-form .formio-dialog.formio-dialog-disabled-animation .formio-dialog-content, .formio-form .formio-dialog.formio-dialog-disabled-animation .formio-dialog-overlay{-webkit-animation:none!important;animation:none!important}
+.formio-form .formio-dialog-overlay{position:fixed;top:0;right:0;bottom:0;left:0;-webkit-backface-visibility:hidden;-webkit-animation:formio-dialog-fadein .5s;animation:formio-dialog-fadein .5s;margin-right:15px;background:0 0}
+.formio-form .formio-dialog-no-overlay{pointer-events:none}
+.formio-form .formio-dialog.formio-dialog-closing .formio-dialog-overlay{-webkit-backface-visibility:hidden;-webkit-animation:formio-dialog-fadeout .5s;animation:formio-dialog-fadeout .5s}
+.formio-form .formio-dialog-content{background:#fff;-webkit-backface-visibility:hidden;-webkit-animation:formio-dialog-fadein .5s;animation:formio-dialog-fadein .5s;pointer-events:all}
+.formio-form .formio-dialog.formio-dialog-closing .formio-dialog-content{-webkit-backface-visibility:hidden;-webkit-animation:formio-dialog-fadeout .5s;animation:formio-dialog-fadeout .5s}
+.formio-form .formio-dialog-close:before{font-family:Helvetica,Arial,sans-serif;content:'×';cursor:pointer}
+.formio-form body.formio-dialog-open, .formio-form html.formio-dialog-open{overflow:hidden}
+@-webkit-keyframes formio-dialog-flyin{0%{opacity:0;-webkit-transform:translateY(-40px);transform:translateY(-40px)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@keyframes formio-dialog-flyin{0%{opacity:0;-webkit-transform:translateY(-40px);transform:translateY(-40px)}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}
+@-webkit-keyframes formio-dialog-flyout{0%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}100%{opacity:0;-webkit-transform:translateY(-40px);transform:translateY(-40px)}}
+@keyframes formio-dialog-flyout{0%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}100%{opacity:0;-webkit-transform:translateY(-40px);transform:translateY(-40px)}}
+.formio-form .formio-dialog.formio-dialog-theme-default{padding-bottom:160px;padding-top:160px}
+.formio-form .formio-dialog.formio-dialog-theme-default.formio-dialog-closing .formio-dialog-content{-webkit-animation:formio-dialog-flyout .5s;animation:formio-dialog-flyout .5s}
+.formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-content{-webkit-animation:formio-dialog-flyin .5s;animation:formio-dialog-flyin .5s;background:#f0f0f0;border-radius:5px;font-family:Helvetica,sans-serif;font-size:1.1em;line-height:1.5em;margin:0 auto;max-width:100%;padding:1em;position:relative;width:65%}
+.formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-close{border:none;background:0 0;cursor:pointer;position:absolute;right:0;top:0}
+.formio-form .formio-clickable{cursor:pointer}
+.formio-form .component-settings .nav>li>a{padding:8px 10px}
+.formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-close:before{display:block;padding:3px;background:0 0;color:#bbb;content:'×';font-size:26px;font-weight:400;line-height:26px;text-align:center}
+.formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-close:active:before, .formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-close:hover:before{color:#777}
+.formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-message{margin-bottom:.5em}
+.formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-input{margin-bottom:1em}
+.formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-input input[type=email], .formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-input input[type=password], .formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-input input[type=text], .formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-input input[type=url], .formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-input textarea{background:#fff;border:0;border-radius:3px;font-family:inherit;font-size:inherit;font-weight:inherit;margin:0 0 .25em;min-height:2.5em;padding:.25em .67em;width:100%}
+.formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-input input[type=email]:focus, .formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-input input[type=password]:focus, .formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-input input[type=text]:focus, .formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-input input[type=url]:focus, .formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-input textarea:focus{box-shadow:inset 0 0 0 2px #8dbdf1;outline:0}
+.formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-buttons{*zoom:1}
+.formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-buttons:after{content:'';display:table;clear:both}
+.formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-button{border:0;border-radius:3px;cursor:pointer;float:right;font-family:inherit;font-size:.8em;letter-spacing:.1em;line-height:1em;margin:0 0 0 .5em;padding:.75em 2em;text-transform:uppercase}
+.formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-button:focus{-webkit-animation:formio-dialog-pulse 1.1s infinite;animation:formio-dialog-pulse 1.1s infinite;outline:0}
+@media (max-width:568px){
+.formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-button:focus{-webkit-animation:none;animation:none}
+}
+.formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-button.formio-dialog-button-primary{background:#3288e6;color:#fff}
+.formio-form .formio-dialog.formio-dialog-theme-default .formio-dialog-button.formio-dialog-button-secondary{background:#e0e0e0;color:#777}
+.formio-form .formio-dialog-content .panel{margin:0}
+.formio-form .formio-placeholder{position:absolute;color:#999}
+.formio-form .formio-dialog .formio-dialog-close{cursor:pointer}
+.formio-form .formio-iframe{border:none;width:100%;height:1000px}
+.formio-form .inline-form-button{margin-right:10px}
+.formio-form .tooltip{opacity:1}
+.formio-form .tooltip[x-placement=right] .tooltip-arrow{border-right:5px solid #000}
+.formio-form .tooltip[x-placement=right] .tooltip-inner{margin-left:8px}
+.formio-form .control-label--bottom{margin-bottom:0;margin-top:5px}
+.formio-form .formio-component-label-hidden{position:relative}
+.formio-form .control-label--hidden{position:absolute;top:6px;right:5px;font-size:1.5em}
+.formio-form .formio-component-datetime .control-label--hidden.field-required{right:45px;z-index:3}
+.formio-form .formio-component-selectboxes .control-label--hidden.field-required, .formio-form .formio-component-survey .control-label--hidden.field-required{top:0}
+.formio-form .formio-component-resource .control-label--hidden.field-required, .formio-form .formio-component-select .control-label--hidden.field-required{right:40px;z-index:2}
+.formio-form .checkbox-inline label, .formio-form .radio-inline label{font-weight:400;cursor:pointer}
+.formio-form .editgrid-listgroup{margin-bottom:10px}
+.formio-form .formio-component-submit .has-error{display:none}
+.formio-form .formio-component-submit button[disabled]+.has-error{display:block}
+.formio-form .formio-choices.form-group{margin-bottom:0}
+.formio-form .formio-choices[data-type=select-multiple] .form-control{height:auto}
+.formio-form .form-control.formio-multiple-mask-select{width:15%;z-index:4}
+.formio-form .form-control.formio-multiple-mask-input{width:85%}
+.formio-form .input-group.formio-multiple-mask-container{width:100%}
+.formio-form .formio-component .table{margin-bottom:0}
+.formio-form .formio-hide-label-panel-tooltip{margin-top:-10px;margin-left:-10px}
+.formio-form .is-disabled .choices__list--multiple .choices__item{padding:5px 10px}
+.formio-form .is-disabled .choices__list--multiple .choices__item .choices__button{display:none}
+.formio-form .has-error.alert-danger .checkbox, .formio-form .has-error.alert-danger .checkbox-inline, .formio-form .has-error.alert-danger .control-label, .formio-form .has-error.alert-danger .help-block, .formio-form .has-error.alert-danger .radio, .formio-form .has-error.alert-danger .radio-inline, .formio-form .has-error.alert-danger.checkbox label, .formio-form .has-error.alert-danger.checkbox-inline label, .formio-form .has-error.alert-danger.radio label, .formio-form .has-error.alert-danger.radio-inline label{color:#fff}
+.formio-form .has-error.alert-danger .form-group{color:#333}
+.formio-form .formio-collapse-icon{cursor:pointer;color:#666;font-size:.6em;border:1px solid #ccc;border-radius:.3em;padding:.2em .4em;vertical-align:top;margin-right:4px;margin-top:1px}
+.formio-form .formio-component-dateTime .form-control[type=datetime-local]~.input-group-addon, .formio-form .formio-component-datetime .form-control[type=datetime-local]~.input-group-addon{width:auto}
+.formio-form .formbuilder{position:relative}
+.formio-form .drag-container{padding:10px;border:dotted 2px #e8e8e8}
+.formio-form .drag-container:hover{cursor:move;border:dotted 2px #ccc}
+.formio-form .component-btn-group{position:absolute;right:0;z-index:1000;margin-top:-2px}
+.formio-form .formio-component:not(:hover) .component-btn-group{display:none}
+.formio-form .builder-group-button{background-color:transparent;white-space:normal;text-align:left}
+.formio-form .form-builder-group-header{padding:0}
+.formio-form .formio-dialog .tab-content{padding-top:12px}
+.formio-form .component-btn-group .component-settings-button{float:right;z-index:1001;margin:4px 4px 0 0;z-index:1001;-webkit-box-shadow:0 0 10px 1px rgba(48,113,169,.6);-moz-box-shadow:0 0 10px 1px rgba(48,113,169,.6);box-shadow:0 0 10px 1px rgba(48,113,169,.6)}
+.formio-form .formbuilder .formio-component-form, .formio-form .formbuilder .formio-component-hidden{border:2px dashed #ddd}
+.formio-form .formbuilder .formio-component-hidden{height:3em;text-align:center;color:#aaa;padding-top:.5em}
+.formio-form .formbuilder .row.formio-component-columns{margin-left:0;margin-right:0}
+.formio-form .btn-group-xxs>.btn, .formio-form .btn-xxs, .formio-form .component-btn-group .component-settings-button{padding:2px 2px;font-size:10px;line-height:1.2em;border-radius:0;width:18px;height:18px}
+.formio-form .formcomponents .formcomponent{text-align:left;padding:5px 5px 5px 8px;margin-top:.2rem;font-size:.8em;line-height:1.2;border-radius:.3em}
+.formio-form .form-builder-panel .panel-body{padding:5px}
+.formio-form .formio-pdf-builder{position:relative}
+.formio-form .formio-drop-zone{display:none;position:absolute;z-index:10;background-color:#0d87e9;opacity:.1}
+.formio-form .formio-drop-zone.enabled{display:inherit}
+.formio-form .component-settings-button-paste{display:none}
+.formio-form .builder-paste-mode .component-settings-button-paste{display:inherit}
+.formio-form .wizard-page-label{cursor:pointer}
+.formio-form .panel-body .drag-and-drop-alert{margin-bottom:0}

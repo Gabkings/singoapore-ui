@@ -1,0 +1,88 @@
+
+#get-matched-paper {
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.06);
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+}
+
+#get-matched-paper>.subsection {
+  padding: 40px 20px;
+}
+
+
+#get-matched-paper>.subsection h2 {
+  font-size: 19px;
+  font-family: 'Larsseit' !important;
+  text-align: left;
+  margin-bottom: 35px;
+}
+
+#get-matched-paper .search-form  {
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.06);
+  border: none;
+  height: 50px;
+  /* margin-bottom: 40px; */
+}
+
+#get-matched-paper .search-form .search-input {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  height: 50px;
+}
+
+#get-matched-paper .search-form button {
+  /* width: 85px; */
+  width: 60px;
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  border: none;
+  padding-left: 0;
+}
+
+
+#get-matched-paper .search-form button i.icon.search {
+  font-size: 26px;
+  line-height: 30px;
+  padding-left: 17px;
+  padding-right: 15px;
+  color: rgb(255, 177, 0);
+}
+
+/*#get-matched-paper .search-form button div {
+  border-left: solid 1px rgb(235, 235, 235);
+}*/
+
+#steps {
+  padding: 10px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#steps h4 {
+  margin-top: 15px !important;
+  font-size: 15px;
+}
+
+#steps .subsection {
+  padding: 0;
+}
+
+#steps img {
+  width: 60px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 411px) {
+#get-matched-paper>.subsection {
+  padding: 30px 20px;
+}
+
+.ui.grid>.row {
+  padding-bottom:15px;
+}
+.ui.grid>.row>.column {
+  padding:0px;
+}
+}

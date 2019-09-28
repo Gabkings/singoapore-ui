@@ -1,0 +1,234 @@
+#banner-paper {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 60%;
+  position: relative;
+  height: 300px;
+  border-radius: 0;
+  border-width: 0;
+  box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.06);
+}
+@media only screen and (max-width: 375px) {
+#banner-paper {
+  height: 340px;
+}}
+
+@media only screen and (max-width: 1300px) {
+
+#banner-paper {
+  width: 80%;
+}}
+
+@media only screen and (max-width: 1024px) {
+
+  #banner-paper {
+    width: 90%;
+  }}
+
+/* @media only screen and (max-height: '768') {
+  PaperWrapper .mybanner_paper {
+  height: 300px !important;
+  }
+} */
+
+/*.Rectangle_20 {*/
+  /*background-color: rgb(255, 255, 255);*/
+  /*box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.06);*/
+  /*position: absolute;*/
+  /*left: 384px;*/
+  /*top: 255px;*/
+  /*width: 1034px;*/
+  /*height: 476px;*/
+  /*z-index: 329;*/
+/*}*/
+
+
+.mobile #banner-paper {
+  width: 80vw;
+}
+
+#banner-paper h3 {
+  font-weight: normal;
+  margin-top: 0;
+}
+
+#banner-paper .search-form input, #banner-paper .search-form button {
+  border-radius: 0;
+}
+
+#banner-paper .search-form button {
+  font-size: 22px;
+  color: #fff;
+  background-color: rgba(247, 177, 0, 1);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media only screen and (max-width : 768px) {
+#banner-paper .search-form button {
+  font-size: 18px;
+  color: #fff;
+  background-color: rgba(247, 177, 0, 1);
+  padding-left: 17px;
+  padding-right: 17px;
+}
+i.search.icon {
+  font-size: 18px;
+}
+
+.ui.large.action.input.fluid {
+  height: 45px;
+}
+
+#banner-paper {
+  height: 260px;
+}}
+
+#search-bottom-link {
+  margin: 25px auto 10px;
+  width: 77%;
+  text-align: left;
+}
+@media only screen and (min-width : 769px) {
+  .ui.large.action.input.fluid {
+    height:60px;
+  }
+  #banner-paper {
+    height: 300px;
+  }}
+
+.gray {
+  color: gray;
+
+}
+/* .gray:hover{
+  color: rgba(247, 177, 0, 1) !important;
+} */
+.underline {
+  text-decoration: underline;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-15 {
+  font-size: 15px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-17 {
+  font-size: 17px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-19 {
+  font-size: 19px;
+}
+
+#banner-paper .search-input {
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.06) !important;
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+}
+
+.banner_child .search-menu {
+  width: 73%;
+}
+
+
+ /* Only small screen */
+ @media only screen and (max-width : 768px) {
+
+  .mybanner_paper{
+      width: 95% !important;
+      /* font-size: 10px; */
+  }
+
+}
+
+
+html body div#app div div#homepage div.page-wrapper div div.banner_child div#banner-paper.MuiPaper-root-55.MuiPaper-elevation1-58.MuiPaper-rounded-56.mybanner_paper div.subsection.search_heading div div form.search-form div.ui.large.action.input.fluid input.search-input.seach_input[type=text]:focus{
+  outline: 2px solid orange !important;     /* oranges! yey */
+}
+
+h3.project-title {
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+  @media only screen and (max-width: 768px){
+    #home-articles {
+      padding-top: 0px!important;
+    }
+  }
+
+  @media only screen and (max-width: 1000px){
+    div#home-articles .ui[class*="three column"].grid>.row>.column {
+      width: 50%;
+  }
+  }
+
+
+  .grid-row-popular-project p {
+    padding-top: 10px;
+  }
+  .grid-row-popular-project button:hover {
+    cursor: pointer;
+  }
+  .grid-row-popular-project #grid-col-popular-project {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .grid-row-more-project p {
+    padding-top: 5px;
+  }
+  .grid-row-more-project img:hover {
+    cursor: pointer;
+  }
+  .grid-row-more-project #grid-col-more-project {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .wrap {
+    display: flex;
+  }
+  .wrap-p {
+    margin-left: 9px;
+  }
+  #egg-shape{
+    position: absolute;
+    display: inline-block;
+    left: -99px;
+    padding-top: 190px;
+  }
+  @media (max-width: 767px) {
+    .wrap {
+      flex-direction: column;
+    }
+    .wrap-img {
+      align-self: center
+    }
+    .wrap-p {
+      margin-left: 1px;
+    }
+    #egg-shape {
+      display: none;
+    }
+  }
+
+  
+

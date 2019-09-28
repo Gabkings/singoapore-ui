@@ -1,0 +1,45 @@
+.review-card .review-card-header > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.review-card .review-card-header > div > h3 {
+  margin: 0 8px 0 0;
+}
+
+.review-card .review-card-header > div > * {
+  margin-right: 8px;
+}
+
+.review-card .review-card-date {
+  font-size: 12px;
+  font-weight: normal;
+  color: #777777;
+}
+
+.review-card .review-card-content {
+  color: #777777;
+}
+
+.review-card .review-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.review-card .review-card-status-approved {
+  color: rgb(0, 160, 0);
+}
+
+.review-card .review-card-edit button,
+.review-card .review-card-edit button:hover,
+.review-card .review-card-edit button:active,
+.review-card .review-card-edit button:focus {
+  background-color: transparent;
+  padding: 0;
+  font-weight: normal;
+}
+

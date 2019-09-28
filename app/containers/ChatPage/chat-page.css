@@ -1,0 +1,74 @@
+.chat-main {
+  width: 94vw;
+  height: 75vh;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important;
+  border-radius: 7px !important;
+}
+
+.chat-main > .grid {
+  width: 100%;
+  height: 100%;
+}
+
+.chat-main .chat-body {
+  height: 100%;
+}
+
+.chat-main .chat-body > .column {
+  height: 100%;
+  padding: 0 !important;
+}
+
+.chat-main .chat-header .chat-title,
+.chat-main .chat-header .chat-title > div {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.chat-main .chat-header .chat-title h3 {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.chat-main .chat-header .chat-title span {
+  font-size: 10px;
+}
+
+.chat-main .chat-header .chat-title h3,
+.chat-main .chat-header .chat-title span {
+  font-weight: normal;
+  margin: 0 auto 0 24px;
+  text-align: left;
+
+  /* to vertically center content within h3 and h5 */
+  display: flex;
+  align-items: center;
+}
+
+.chat-main .chat-header .chat-title span.online {
+  color: rgb(0, 176, 0);
+}
+
+.chat-main .chat-header .chat-title span.offline {
+  color: grey;
+}
+
+.convo-profile-container {
+  overflow-y: scroll;
+}
+
+.chat-listing {
+  text-align: left;
+}
+
+.chat-listing a {
+  color: black;
+}
+
+.chat-listing .chat-related {
+  color: gray;
+  padding-top: 10px;
+}

@@ -1,0 +1,38 @@
+.ui.button.filled {
+  background-color: rgba(247, 177, 0, 1);
+  color: #ffffff;
+  padding: 10px;
+}
+
+.ui.button.outline {
+  background-color: #ffffff;
+  color: rgba(247, 177, 0, 1);
+  border: 1px solid rgba(247, 177, 0, 1);
+  padding: 10px;
+}
+
+.button-group.ui.compact.menu .item.active {
+  background-color: rgba(247, 177, 0, 1);
+  color: white;
+}
+
+.button-group {
+  height: 50px;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.06);
+}
+
+.button-group button {
+  width: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+  margin: 0px auto;
+  color: rgb(159, 159, 159);
+}
+
+.button-group button.active {
+  color: white;
+}
+

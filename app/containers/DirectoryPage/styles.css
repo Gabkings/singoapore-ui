@@ -1,0 +1,55 @@
+
+#directory {
+  padding-top: 80px;
+  background: url('https://s3-ap-southeast-1.amazonaws.com/sghomeneeds-gallery/images/DirectoryPage/orangeshades.png') repeat-y;
+}
+
+#directory h1 {
+  font-size: 40px;
+}
+
+#directory h3 {
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: normal;
+  color: rgb(107, 107, 107);
+}
+
+#directory .title.section .subsection {
+  padding-bottom: 40px;
+}
+
+.directory-content {
+  width: 92%;
+  margin: auto;
+}
+
+#category-description-paper {
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.09);
+  width: 1150px;
+  margin: auto;
+
+}
+#category-description-paper .section.title {
+  padding-top: 30px;
+  padding-left: 45px;
+  padding-bottom: 30px;
+  background-color: rgba(235, 235, 235, 0.459);
+}
+
+#category-description-paper .section.body {
+  text-align: left;
+  padding: 25px 45px;
+  color: rgb(144, 144, 144);
+}
+
+#category-description-paper h1 {
+  text-align: left;
+  font-size: 28px;
+}
+
+#professionals-search-input::placeholder {
+  color: black;
+}

@@ -1,0 +1,19 @@
+.table-wrapper {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.add-button-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.ReactTable .ui.button {
+  padding: 10px;
+}
+
+.table-wrapper h2 {
+  padding-top: 10px;
+}
+

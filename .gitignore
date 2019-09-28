@@ -1,0 +1,18 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+stats.json
+.env*
+app/assets
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+
+cert/
+bash_scripts
+
+seo.json
+feed.xml

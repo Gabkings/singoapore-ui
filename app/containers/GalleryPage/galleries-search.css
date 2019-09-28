@@ -1,0 +1,40 @@
+.galleries-search.card {
+  border: 0;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  width: 93.75%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+}
+
+.galleries-search .galleries-search-grid > .row > .column {
+  padding: 8px;
+}
+
+.galleries-search i {
+  color: rgb(255, 176, 0);
+}
+
+.galleries-search.card,
+.galleries-search .galleries-search-input > *,
+.galleries-search .gallery-category-filter {
+  border-radius: 2px !important;
+}
+
+.galleries-search .galleries-search-input .label {
+  border-left: 0;
+  position: relative;
+}
+
+.galleries-search .galleries-search-input .label:after {
+  content: "";
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 30%;
+  left: 0;
+  height: 40%;
+  width: 1px;
+}
+
+

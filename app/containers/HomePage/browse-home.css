@@ -1,0 +1,162 @@
+#browse-home {
+  background-color: #FAFAFA;
+  /*border-bottom: 1px solid rgb(235, 235, 235);*/
+  padding-bottom: 15px;
+}
+
+/* Selector */
+
+#selector a{
+  color: gray;
+  font-family: 'AtlasGrotesk-Regular';
+}
+#selector a.item:hover,
+#selector a.item:hover,
+#selector a.item.active {
+  color: rgba(247, 177, 0, 1);
+  background-color: white;
+  font-family: 'AtlasGrotesk-Regular';
+}
+
+#selector a.item:hover .menu-item:before,
+#selector a.item:hover .menu-item:before,
+#selector a.item.active .menu-item:before {
+  content:'';
+  width:20px;
+  height:3px;
+  background:rgba(247, 177, 0, 1);
+  position:absolute;
+  bottom:8px;
+  font-family: 'AtlasGrotesk-Regular';
+}
+
+/*  */
+#browse-home h1.section-title {
+  font-size: 30px;
+}
+
+#browse-home h4 {
+  font-weight: normal;
+}
+
+#browse-home>.subsection>.subsection {
+  width: 56%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#browse-home .ui.card>.image {
+  border-radius: 4px !important;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.06);
+}
+
+#selector {
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+}
+
+h1.project-title {
+  font-weight: normal;
+  font-size: 20px !important;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h3.project-subtitle {
+  font-weight: normal;
+  font-size: 17px;
+  color: rgb(117, 117, 117);
+  margin-top: 10px;
+}
+
+.project-text-wrapper {
+  text-align: left;
+  margin-bottom: -10px;
+}
+
+.gallery-card .favourite-wrapper {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  z-index: 99;
+  display: none;
+}
+
+.gallery-card:hover .favourite-wrapper {
+  display: block;
+}
+
+.left-arrow, .right-arrow {
+  background-color: white;
+  display: none;
+  position: absolute;
+  height: 50px;
+  width: 25px;
+  top: 80px;
+  font-size: 15px;
+  color: rgb(117, 117, 117);
+  cursor: pointer;
+}
+
+#browse-home .card:hover .left-arrow, #browse-home .card:hover .right-arrow {
+  display: inline-block;
+}
+
+.left-arrow {
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  left: 0px;
+  text-align: left;
+}
+
+.right-arrow {
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  right: 0px;
+  text-align: right;
+}
+
+.left-arrow i, .right-arrow i {
+  line-height: 50px;
+}
+
+.slider-circle-wrapper {
+  position: relative;
+  top: -30px;
+  margin-bottom: -30px;
+}
+
+.projects-slider {
+  margin-top: 90px;
+}
+
+#shape-2 {
+  position: absolute;
+  display: inline-block;
+  left: -203px;
+  padding-top: 209px;
+}
+@media only screen and (max-width: 768px){
+#browse-home>.subsection>.subsection {
+  width: 100% !important;
+}
+.page-wrapper > .section {
+  margin-top: 0px;
+}
+#browse-home>.subsection>.subsection {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+}
+
+div#browse-home h2 {
+  padding-top: 50px!important;
+  padding-bottom: 10px!important;
+}
+
+#browse-home div.header {
+  padding-bottom: 20px;
+  padding-left: 10px;
+}

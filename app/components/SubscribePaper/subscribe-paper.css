@@ -1,0 +1,40 @@
+#subscribe-paper {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.06);
+  padding: 40px 30px;
+}
+
+#subscribe-paper .subsection {
+  padding: 0px;
+}
+
+#subscribe-paper h2 {
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+
+#subscribe-paper .ui.input input {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.06);
+  height: 65px;
+}
+
+#subscribe-paper .ui.input input::placeholder {
+  font-size: 18px;
+  color: rgb(141, 141, 141);
+}
+
+#subscribe-paper button {
+  width: 145px;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  height: 45px;
+}
+
+#subscribe-paper button:hover {
+  text-decoration: underline !important;
+}

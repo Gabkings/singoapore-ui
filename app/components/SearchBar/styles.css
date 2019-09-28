@@ -1,0 +1,68 @@
+.menu .search-input::placeholder {
+  font-size: 13px;
+  color: #000000;
+}
+
+.menu .search-form .ui.icon.button {
+  border-radius: 0px !important;
+  background-color: white;
+  color: rgba(247, 177, 0, 1);
+  border: 1px solid rgb(235, 235, 235);
+  border-left: none;
+  padding-left: 0px;
+}
+
+.menu .search-form button div {
+  border-left: 1px solid rgb(235, 235, 235);
+  padding-left: 11px;
+
+}
+
+.search-form button {
+  background-color: rgb(255, 177, 0) !important;
+  color: white !important;
+}
+/* .seach_input{
+  width:300px;
+  height:58px;
+} */
+/* .search_bar_btn{
+  padding-right: 30px;
+  padding-left: 30px
+} */
+
+#banner-paper .search-form button:hover, .search-form button:hover {
+  background: #e8a205 !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+  .seach_input{
+    font-size: 15px;
+
+  }
+
+}
+
+.ui.vertical.menu .item::before {
+  height: 0 !important;
+
+}
+
+.subsection.services-parent .column .column :hover {
+  cursor: pointer;
+  background: #F7F7F7;
+}
+
+.subsection.services-parent .column .column .subcategory-row :hover {
+  cursor: pointer;
+  background: transparent;
+}
+
+.ui.input.focus>input, .ui.input>input:focus {
+  border-color: rgba(34,36,38,.15);
+}
+  .ui.action.input:not([class*="left action"])>input:focus {
+    border-right-color: transparent!important;
+}

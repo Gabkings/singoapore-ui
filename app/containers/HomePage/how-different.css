@@ -1,0 +1,85 @@
+#how-different {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#how-different {
+  background: #FAFAFA url(https://s3-ap-southeast-1.amazonaws.com/sghomeneeds-gallery/images/HomePage/group22.png) right;
+  background-size: 300px 400px;
+  background-repeat: no-repeat;
+}
+
+#how-different>.subsection {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: left;
+}
+
+#how-different>.subsection h1 {
+  padding-bottom: 20px;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+ /* Only small screen */
+ @media only screen and (max-width : 768px) {
+  #how-different>.subsection h1 {
+    font-size: 26px;
+  }
+ }
+#how-different>.subsection .content {
+  height: 25px;
+  padding-left: 14px;
+}
+
+#how-different>.subsection h3 {
+  font-weight: normal;
+  font-size: 18px;
+  display: block;
+
+}
+
+div#how-different .ten.wide.column img.ui.image {
+  height: 23px;
+  width: 23px;
+}
+
+div#how-different p.gray {
+  font-weight: 200!important;
+  font-size: 21px;
+  line-height: 30px;
+  margin-top: -2.5px;
+}
+
+@media only screen and (min-width: 1024px) {
+
+#how-different {
+  background-position-x: 65%;
+}}
+
+@media (max-width: 1000px) {
+  #how-different h2 {
+    font-size: 22px;
+    margin-left: 30px;
+  }
+  #how-different .ui.list {
+    margin-left: 30px;
+  }
+  div#how-different p.gray {
+  font-size: 17px;
+  }
+  }
+  @media (min-width: 1001px) {
+    #how-different h2 {
+  margin-bottom: 30px;
+    }}
+
+
+  @media only screen and (max-width: 768px){
+    div#how-different div.six.wide.column img.ui.image {
+      display: none;
+    }
+    #how-different{
+    background: none;}
+  }

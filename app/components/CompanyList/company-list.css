@@ -1,0 +1,247 @@
+.company-card {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.07);
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  width: 90%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 8px;
+  padding: 16px;
+}
+
+.company-card > .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-card p {
+  /* font-family: 'AtlasGrotesk' !important; */
+  font-size: 15px;
+  color: #6e6e6e;
+  font-weight: 400;
+  line-height: 25px;
+  /* margin-top: 7px !important; */
+}
+
+
+.company-card .logo-wrapper img {
+  margin: auto;
+}
+
+#company-list a h3 {
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 2px;
+  color: #424141;
+  font-family: Larsseit!important;
+  font-weight: 700;
+}
+
+#company-list a h3:hover {
+  color: black;
+  font-weight: bold;
+}
+
+
+.company-card.selected {
+  background-color: #4cae4c;
+}
+
+.company-card .orange-circle {
+  background-color: rgb(247, 177, 0);
+  padding: 33px;
+  border-radius: 62px;
+  width: 124px;
+  display: inline-block;
+}
+
+.rating-wrapper {
+  /*display: flex;*/
+  flex-direction: row;
+  margin-bottom: 20px;
+  float: none;
+  margin: auto;
+}
+
+/* not on small screen */
+@media only screen and (min-width : 991px) {
+  .myChat{
+    padding-bottom: 0px !important;
+  }
+
+  .myRating{
+    padding-top: 0px !important;
+  }
+}
+
+/* only on x-small screen */
+@media only screen and (max-width : 319px) {
+  .myChat{
+    padding-bottom: 0px !important;
+  }
+
+  .myRating{
+    padding-top: 0px !important;
+  }
+}
+
+.rating-wrapper > span {
+  font-size: 12px;
+  vertical-align: 4px;
+}
+
+div#directory .nine.wide.computer.twelve.wide.mobile.twelve.wide.tablet.column {
+  padding-top: 20px!important;
+  padding-right: 20px!important;
+}
+
+.search-menu {
+  width: 100%;
+}
+
+p.gray.underline {
+  text-decoration: underline;
+  color: gray;
+  font-size: 15px;
+}
+@media only screen and (min-width: 787px) {
+div#directory .ten.wide.column {
+  width: 70%!important;
+}
+
+div#directory .six.wide.column {
+  width: 30%!important;
+}}
+
+div#directory .ten.wide.column {
+padding-right:0px!important;
+padding-left:0px!important;
+}
+
+div#directory .sixteen.wide.computer.eight.wide.mobile.eight.wide.tablet.column.myRating{
+  padding-right:0px!important;
+  padding-left:0px!important;
+  }
+
+.nine.wide.computer.twelve.wide.mobile.twelve.wide.tablet.column {
+  padding-top: 0px!important;
+  padding-right: 0px!important;
+}
+
+@media only screen and (min-width: 1220px) {
+button.favourite-button.ui.circular.basic.icon.button.undefined {
+  margin-right: -3%;
+  margin-top: -1%;
+  position: relative;
+  z-index: 1;
+}}
+
+div.ui.card.full-width-card.company-card.undefined div.content {
+  padding-right: 0px;
+  padding-left:0px;
+}
+
+
+@media only screen and (max-width: 991px) {
+.sixteen.wide.computer.eight.wide.mobile.eight.wide.tablet.column.myChat {
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+.sixteen.wide.computer.eight.wide.mobile.eight.wide.tablet.column.myRating {
+  padding-top: 8px;
+}}
+
+.four.wide.computer.sixteen.wide.mobile.six.wide.tablet.column {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+@media only screen and (min-width: 1195px){
+  .company-card .ui.column.grid>[class*="nine wide computer"].column, .company-card .ui.grid>.column.row>[class*="nine wide computer"].column, .company-card .ui.grid>.row>[class*="nine wide computer"].column, .company-card .ui.grid>[class*="nine wide computer"].column {
+    width: 65%!important;
+}}
+
+@media only screen and (min-width: 992px){
+  .company-card .ui.column.grid>[class*="nine wide computer"].column, .company-card .ui.grid>.column.row>[class*="nine wide computer"].column, .company-card .ui.grid>.row>[class*="nine wide computer"].column, .company-card .ui.grid>[class*="nine wide computer"].column {
+    width: 60%!important;
+}}
+
+@media only screen and (min-width: 992px){
+.company-card .ui.column.grid>[class*="three wide"].column, .company-card .ui.grid>.column.row>[class*="three wide"].column, .company-card .ui.grid>.row>[class*="three wide"].column, .company-card .ui.grid>[class*="three wide"].column {
+  max-width: 160px!important;
+  padding-right: 20px;
+  padding-left: 40px;
+}}
+
+
+@media only screen and (max-width: 380px) {
+  .company-card .ui.column.grid>[class*="three wide"].column, .company-card .ui.grid>.column.row>[class*="three wide"].column, .company-card .ui.grid>.row>[class*="three wide"].column, .company-card .ui.grid>[class*="three wide"].column {
+    padding-right: 1px;
+    padding-left: 1px;
+  }}
+
+@media only screen and (max-width: 991px) and (min-width: 381px){
+  .company-card .ui.column.grid>[class*="three wide"].column, .company-card .ui.grid>.column.row>[class*="three wide"].column, .company-card .ui.grid>.row>[class*="three wide"].column, .company-card .ui.grid>[class*="three wide"].column {
+    width: 100px!important;
+    padding-right: 10px;
+    padding-left: 10px;
+  }}
+
+div.xMobileView .twelve.wide.computer.sixteen.wide.mobile.ten.wide.tablet.column {
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+
+@media only screen and (min-width: 992px){
+  div.ui.card.full-width-card.company-card.undefined .ui.grid>.row>[class*="four wide computer"].column {
+    width: 20%!important;
+  }}
+
+
+  @media only screen and (max-width: 450px){
+    div.ui.card.full-width-card.company-card.undefined   .ui.grid>.row>[class*="twelve wide mobile"].column {
+      width: 70%!important;
+    }}
+
+    @media only screen and (max-width: 380px){
+      div.ui.card.full-width-card.company-card.undefined   .ui.grid>.row>[class*="twelve wide mobile"].column {
+        width: 80%!important;
+      }}
+
+
+      .company-card p {
+        height: 5em;
+        overflow: hidden;
+      
+      }
+
+      @media only screen and (max-width: 411px){
+      .company-card img.ui.image {
+        height: 70px;
+    }
+    .company-card p {
+      font-size: 13px;
+      line-height: 21px;
+      margin-top: 5px !important;
+      height: 3em!important;
+  }
+  .nine.wide.computer.twelve.wide.mobile.twelve.wide.tablet.column {
+    padding-bottom: 7px!important;
+  }
+  #company-list a h3 {
+    font-size: 17px;
+    margin-top: 5px;
+  }
+  .rating-wrapper > span {
+    font-size: 11px;
+    vertical-align: 0px;
+}}
+
+    @media only screen and (min-width: 992px){
+    .ui.card.full-width-card.paper.company-card.undefined .row {
+      padding-bottom: 0px;
+  }}

@@ -1,0 +1,40 @@
+{
+  "app.components.Common.Articles.ArticlesThreeColumnSubsectionDesc":
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  "app.components.Common.Articles.ArticlesThreeColumnSubsectionHeader":
+    "Our Articles:",
+  "app.components.HomePage.BannerSectionDesc": "Your trusted Home Advisor",
+  "app.components.HomePage.BannerSectionHeader":
+    "Connecting You to Reliable SG Home Professionals",
+  "app.components.HomePage.BannerSectionSearchLink":
+    "Search for A Specific Professional",
+  "app.components.HomePage.BrowseHomeProjectsSectionDesc":
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+  "app.components.HomePage.BrowseHomeProjectsSectionHeader":
+    "Browse Home Project:",
+  "app.components.HomePage.ClientReviewsSectionButton": "View All",
+  "app.components.HomePage.ClientReviewsSectionHeader": "Our Client Reviews:",
+  "app.components.HomePage.HowDifferentSectionHeader": "How Are you different?",
+  "app.components.HomePage.HowDifferentSectionListItem1":
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  "app.components.HomePage.HowDifferentSectionListItem2":
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  "app.components.HomePage.HowDifferentSectionListItem3":
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  "app.components.HomePage.HowDifferentSectionListItem4":
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  "app.components.HomePage.HowItWorksSectionHeader": "How it Works",
+  "app.components.HomePage.HowItWorksSectionStep1Desc":
+    "State your requirements in our guided Home-Match form. It is designed to capture all your needs.",
+  "app.components.HomePage.HowItWorksSectionStep1Header": "Fill Up a Form!",
+  "app.components.HomePage.HowItWorksSectionStep2Desc":
+    "The Home Match doem will suggest Professionals instantly. Starting choosing a few!",
+  "app.components.HomePage.HowItWorksSectionStep2Header":
+    "Pick your Professional!",
+  "app.components.HomePage.HowItWorksSectionStep3Desc":
+    "State your requirements in outr guided Home-Match Form.",
+  "app.components.HomePage.HowItWorksSectionStep3Header":
+    "Chat live with your professional!",
+  "app.components.HomePage.header": "This is HomePage component!",
+  "app.components.NotFoundPage.header": "This is NotFoundPage component!"
+}

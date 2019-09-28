@@ -1,0 +1,85 @@
+#contact-page {
+  padding-top: 45px;
+}
+
+#contact-page .sub-title {
+  font-family: "AtlasGrotesk";
+  color: rgb(123, 123, 123);
+}
+
+#contact-page .three-col-wrapper {
+  width: 80%;
+}
+
+#contact-page .contact-paper {
+  height: 300px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 3px;
+}
+
+#contact-page .contact-paper .top-subsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#contact-page .contact-paper .top-subsection img {
+  height: 70px;
+}
+
+#contact-page .contact-paper .top-subsection h2 {
+  font-weight: normal;
+  font-family: "Larsseit";
+  color: rgb(16, 16, 16);
+  font-size: 20px;
+  padding-top:10px;
+  padding-bottom: 0px;
+}
+
+#contact-page .contact-paper hr {
+  border: 2px solid rgb(235, 235, 235);
+  width: 27px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#contact-page .contact-paper p {
+  font-family: "AtlasGrotesk";
+  color: rgb(112, 112, 112);
+}
+
+#contact-form {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+#contact-form input {
+  border: none;
+  border-bottom: 1px solid rgb(235, 235, 235);;
+  border-radius: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#contact-form input::-webkit-input-placeholder {
+  color: black;
+}
+
+#contact-form .submit-button-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+#contact-page .map-paper-subsection {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contact-form-wrapper {
+  display: flex;
+  height: 450px;
+  align-items: center;
+}

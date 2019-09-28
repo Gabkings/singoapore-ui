@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'AtlasGrotesk Black';
+  src: url('../../fonts/AtlasGrotesk Black.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AtlasGrotesk Black';
+  src: url('../../fonts/AtlasGrotesk Black Italic.otf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'AtlasGrotesk Bold';
+  src: url('../../fonts/AtlasGrotesk Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AtlasGrotesk Bold';
+  src: url('../../fonts/AtlasGrotesk Bold Italic.otf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'AtlasGrotesk Light';
+  src: url('../../fonts/AtlasGrotesk Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AtlasGrotesk Light';
+  src: url('../../fonts/AtlasGrotesk Light Italic.otf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'AtlasGrotesk Medium';
+  src: url('../../fonts/AtlasGrotesk Medium.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AtlasGrotesk Medium';
+  src: url('../../fonts/AtlasGrotesk Medium Italic.otf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'AtlasGrotesk Regular';
+  src: url('../../fonts/AtlasGrotesk Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AtlasGrotesk Regular';
+  src: url('../../fonts/AtlasGrotesk Regular Italic.otf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'AtlasGrotesk Thin';
+  src: url('../../fonts/AtlasGrotesk Thin.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AtlasGrotesk Thin';
+  src: url('../../fonts/AtlasGrotesk Thin Italic.otf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Larsseit';
+  src: url('../../fonts/Larsseit.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Larsseit';
+  src: url('../../fonts/Larsseit-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Larsseit';
+  src: url('../../fonts/Larsseit-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Larsseit';
+  src: url('../../fonts/Larsseit-Medium.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+div, a, li, span, p, button {
+  font-family: 'Larsseit', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Larsseit', sans-serif !important;
+}

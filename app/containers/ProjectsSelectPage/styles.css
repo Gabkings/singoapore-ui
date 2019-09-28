@@ -1,0 +1,43 @@
+#project-select>.subsection {
+  width: 90%;
+}
+
+#project-select h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 24px;
+}
+
+#project-select h1 strong {
+  color: rgba(247, 177, 0, 1);
+}
+
+#project-select .paper-subsection {
+  width: 85%;
+}
+
+#pagination-container {
+  padding-top: 40px;
+}
+
+#send-container {
+  text-align: right;
+  margin-top: 20px;
+}
+
+#project-select .company-card.selected {
+  background-color: #ccfde4!important;
+}
+
+#project-select .chat-now {
+  display: none;
+}
+@media (max-width:768px) {
+  #project-select .custom-pagination {
+    font-size: 0.7em;
+  }
+  #project-select .custom-pagination a {
+
+    width: 30px;
+  }
+}

@@ -1,0 +1,5 @@
+.icon-stars .icon, .ui.star.rating .active.icon{
+  color: rgb(255, 177, 0) !important;
+  text-shadow:none !important;
+  outline: none;
+}

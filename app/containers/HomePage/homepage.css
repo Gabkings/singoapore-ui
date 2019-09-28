@@ -1,0 +1,172 @@
+#homepage{
+  /* max-width: 1100px; */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: auto; */
+  background: #FAFAFA !important;
+}
+
+
+.search-menu {
+  width: 100% !important;
+}
+
+/*#homepage h1 {
+  font-size: 25px;
+
+}*/
+
+ /* Only small screen */
+ @media only screen and (max-width : 768px) {
+
+  #homepage h1 {
+    font-size: 22px;
+  }
+
+  div.banner_child #homepage p{
+    font-size: 15px;
+  }
+
+  #homepage h3 {
+    font-size: 15px;
+  }
+
+ }
+
+#home-articles {
+  padding-top: 0px;
+  /* border-bottom: 1px solid rgb(235, 235, 235); */
+}
+
+#home-articles>.section>.subsection {
+  width: 87%;
+  padding-bottom: 80px;
+}
+
+#home-articles h4 {
+  color: rgb(101, 101, 101);
+  font-weight: normal;
+}
+
+.new-article-label {
+  background-color: rgb(255, 177, 0);
+  color: white;
+  display: inline-block;
+  border-radius: 30px;
+  padding: 5px 22px;
+  font-size: 15px;
+  position: absolute;
+  margin-left: 34%;
+  margin-top: -15px;
+  z-index: 99;
+}
+
+
+.New_tag {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1800px;
+  height: 9192px;
+  z-index: 42;
+}
+.New {
+  font-size: 25px;
+  font-family: "Larsseit";
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+  position: absolute;
+  left: 340.938px;
+  top: 7279px;
+  z-index: 41;
+}
+.Rounded_Rectangle_3 {
+  background-color: rgb(255, 177, 0);
+  position: absolute;
+  left: 310px;
+  top: 7278px;
+  width: 120px;
+  height: 38px;
+  z-index: 40;
+}
+
+.Rounded_Rectangle_3 {
+  background-color: rgb(255, 177, 0);
+  position: absolute;
+  left: 310px;
+  top: 7278px;
+  width: 120px;
+  height: 38px;
+  z-index: 40;
+}
+
+
+#home-articles .articles-paper {
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.07);
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+}
+
+#home-articles .articles-paper .subsection {
+  text-align: left;
+  width: 100%;
+  padding: 0px 15px;
+}
+
+#home-articles .articles-paper .subsection h3 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+#home-articles .articles-paper .subsection p {
+  color: rgb(93, 93, 93);
+}
+
+
+.Lorem_ipsum_dolor_sit_amaet__consectetur_adipis {
+  font-size: 18px;
+  font-family: "AtlasGrotesk";
+  color: rgb(93, 93, 93);
+  line-height: 1.944;
+  position: absolute;
+  left: 1208.844px;
+  top: 8461.89px;
+  width: 410px;
+  height: 54px;
+  z-index: 72;
+}
+
+
+.Rectangle_27 {
+
+
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.07);
+  position: absolute;
+  left: 1181px;
+  top: 7940px;
+  width: 495px;
+  height: 613px;
+  z-index: 69;
+}
+
+
+.Lorem_ipsum_dolor_sit_amet__consectetur_elit__s {
+  font-size: 19px;
+  font-family: "AtlasGrotesk";
+  color: rgb(101, 101, 101);
+  line-height: 1.842;
+  text-align: center;
+  position: absolute;
+  left: 415.384px;
+  top: 7235.035px;
+  width: 1041px;
+  height: 19px;
+  z-index: 74;
+}
+
+
+.ui.list .list>.item>img.image+.content, .ui.list>.item>img.image+.content {
+  display: inline-table;
+  width: 90%;
+}

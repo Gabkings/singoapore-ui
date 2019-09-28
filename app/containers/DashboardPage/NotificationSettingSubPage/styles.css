@@ -1,0 +1,56 @@
+.setting-group {
+  margin-bottom: 24px;
+}
+.setting-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting-text {
+  width: 80%;
+}
+
+.setting-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Toggle styles when unchecked */
+/* Toggle styles when checked */
+.setting-toggle .ui.toggle.checkbox .box:before,
+.setting-toggle .ui.toggle.checkbox label:before {
+  background-color: rgba(0,0,0,.15) !important;
+}
+
+.setting-toggle .ui.toggle.checkbox .box:after,
+.setting-toggle .ui.toggle.checkbox label:after {
+  background-color: rgb(255, 255, 255);
+  box-shadow: none;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 15px;
+  height: 15px;
+}
+
+/* Toggle styles when checked */
+.setting-toggle .ui.toggle.checkbox input:checked~.box:before,
+.setting-toggle .ui.toggle.checkbox input:checked~label:before {
+  background-color: orange !important;
+}
+
+.setting-toggle .ui.toggle.checkbox input:checked~.box:after,
+.setting-toggle .ui.toggle.checkbox input:checked~label:after {
+  background-color: rgb(255, 255, 255);
+  box-shadow: none;
+  position: absolute;
+  top: 3px;
+  width: 15px;
+  height: 15px;
+}
+
+
+
